@@ -344,7 +344,7 @@ uint8_t MAX30100::readRegister(uint8_t address)
 	}
 	else
 	{
-		printf("Data read: %c \n", buffer);
+		printf("Data read: %u \n", buffer);
 	}
 	return buffer;
 }
