@@ -329,7 +329,7 @@ void MAX30100::writeRegister(byte address, byte val)
 	}
 	if(val != test)
 	{
-		printf("error values not equal \n");
+		printf("error values not equal %u %u \n", val, test);
 		
 	}
 	else
