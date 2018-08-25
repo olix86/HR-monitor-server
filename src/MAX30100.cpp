@@ -8,7 +8,7 @@ unsigned long millis(void)
 	struct timespec ts;
 	clock_gettime(CLOCK_MONOTONIC, &ts );
 	unsigned long millis = ts.tv_sec * 1000 + ts.tv_nsec / 1000000 ;
-	printf("%lu \n",millis);
+	//printf("%lu \n",millis);
 	return millis;
 }
 
@@ -154,6 +154,7 @@ bool MAX30100::detectPulse(float sensor_value)
 		return false;
 	}
 	
+	printf("state : %u \n",currenPPulseDetectorState);
 	switch(currentPulseDetectorState)
 	{
 		case PULSE_IDLE:
