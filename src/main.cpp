@@ -39,7 +39,7 @@ int main(){
 			
 		}
 		sleep(0.01);
-		i--;
+		//i--;
 	}
 	
 	printf("end \n");
