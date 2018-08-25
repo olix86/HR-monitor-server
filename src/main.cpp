@@ -33,7 +33,7 @@ int main(){
 		}
 		else
 		{
-			printf("no pulse detected \n");  
+			//printf("no pulse detected \n");  
 			
 			
 			

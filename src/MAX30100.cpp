@@ -387,7 +387,7 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 	}
 	
 	
-	printf("readFrom: ");
+	//printf("readFrom: ");
 	for(int i=0; i<length; i++)
 	{
 		_buff[i] = i2c_smbus_read_byte_data(file_i2c, address + i);
@@ -396,9 +396,9 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 			//ERROR HANDLING: i2c transaction failed
 			printf("Failed to read from the i2c bus.\n");
 		}
-		printf("%u", _buff[i]);
+		//printf("%u", _buff[i]);
 	}
-	printf("\n");
+	//printf("\n");
 	
 }
 void MAX30100::setMode(Mode mode)
