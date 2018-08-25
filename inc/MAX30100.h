@@ -25,6 +25,7 @@
 
 /* MAX30100 parameters */
 #define DEFAULT_OPERATING_MODE            MAX30100_MODE_SPO2_HR    
+
 /*!!!IMPORTANT
  * You can't just throw these two values at random. Check Check table 8 in datasheet on page 19.
  * 100hz + 1600us is max for that resolution
