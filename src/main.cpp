@@ -16,7 +16,7 @@ int main(){
 	while(i > 0)
 	{
 		pulseoxymeter_t result = pulseOxymeter->update();
-		ol
+		
 		//printf("update \n");
 		
 		if( result.pulseDetected == true )
