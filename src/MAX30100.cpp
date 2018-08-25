@@ -282,8 +282,6 @@ void MAX30100::writeRegister(byte address, byte val)
 {
 	int file_i2c;
 	byte test;
-	//int length;
-	//unsigned char buffer[60] = {0};
 	
 	//----- OPEN THE I2C BUS -----
 	char *filename = (char*)"/dev/i2c-1";
@@ -294,7 +292,6 @@ void MAX30100::writeRegister(byte address, byte val)
 		return;
 	}
 	
-	//int addr = MAX30100_DEVICE //0x5a;          //<<<<<The I2C address of the slave
 	if (ioctl(file_i2c, I2C_SLAVE, MAX30100_DEVICE) < 0)
 	{
 		printf("Failed to acquire bus access and/or talk to slave.\n");
@@ -302,15 +299,12 @@ void MAX30100::writeRegister(byte address, byte val)
 		return;
 	}
 	
-	//----- WRITE BYTES -----
-	//buffer[0] = val;
-	//length = 1;			//<<< Number of bytes to write
-	
-	
-	
 	i2c_smbus_write_byte_data(file_i2c, address, val);
+	
+	
 	int result = i2c_smbus_read_byte_data(file_i2c, address);
-	if (result < 0) {
+	if (result < 0)
+	{
 		// ERROR HANDLING: i2c transaction failed
 	} 
 	
@@ -329,8 +323,7 @@ void MAX30100::writeRegister(byte address, byte val)
 uint8_t MAX30100::readRegister(uint8_t address)
 {
 	int file_i2c;
-	//int length = 1;
-	uint8_t buffer;
+	uint8_t val;
 	
 	//----- OPEN THE I2C BUS -----
 	char *filename = (char*)"/dev/i2c-1";
@@ -341,7 +334,6 @@ uint8_t MAX30100::readRegister(uint8_t address)
 		return -1;
 	}
 	
-	//int addr = MAX30100_DEVICE //0x5a;          //<<<<<The I2C address of the slave
 	if (ioctl(file_i2c, I2C_SLAVE, MAX30100_DEVICE) < 0)
 	{
 		printf("Failed to acquire bus access and/or talk to slave.\n");
@@ -349,25 +341,22 @@ uint8_t MAX30100::readRegister(uint8_t address)
 		return -1;
 	}
 	
-	int result = i2c_smbus_read_byte_data(file_i2c, address);
-	if (result < 0)		//read() returns the number of bytes actually read, if it doesn't match then an error occurred (e.g. no response from the device)
+	int val = i2c_smbus_read_byte_data(file_i2c, address);
+	if (val < 0)		
 	{
 		//ERROR HANDLING: i2c transaction failed
 		printf("Failed to read from the i2c bus.\n");
 	}
 	else
 	{
-		printf("Data read: %u \n", buffer);
+		printf("Data read: %u \n", val);
 	}
-	buffer = result;
-	return buffer;
+	return val;
 }
 
 void MAX30100::readFrom(byte address, int length, byte _buff[])
 {
 	int file_i2c;
-	
-	//unsigned char buffer[60] = {1};
 	
 	//----- OPEN THE I2C BUS -----
 	char *filename = (char*)"/dev/i2c-1";
@@ -378,7 +367,6 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 		return;
 	}
 	
-	//int addr = MAX30100_DEVICE //0x5a;          //<<<<<The I2C address of the slave
 	if (ioctl(file_i2c, I2C_SLAVE, MAX30100_DEVICE) < 0)
 	{
 		printf("Failed to acquire bus access and/or talk to slave.\n");
@@ -386,12 +374,11 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 		return;
 	}
 	
-	
 	//printf("readFrom: ");
 	for(int i=0; i<length; i++)
 	{
 		_buff[i] = i2c_smbus_read_byte_data(file_i2c, address + i);
-		if (_buff[i] < 0)		//read() returns the number of bytes actually read, if it doesn't match then an error occurred (e.g. no response from the device)
+		if (_buff[i] < 0)		
 		{
 			//ERROR HANDLING: i2c transaction failed
 			printf("Failed to read from the i2c bus.\n");
