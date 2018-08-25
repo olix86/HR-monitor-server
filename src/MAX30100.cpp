@@ -382,7 +382,8 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 	}
 	else
 	{
-		printf("Data read: %s\n", buffer);
+		buffer[59] = '\0'
+		printf("Data read: %s \n", buffer);
 	}
 }
 void MAX30100::setMode(Mode mode)
