@@ -1,0 +1,3921 @@
+Data read: 3 
+Data read: 71 
+Data read: 71 
+Data read: 71 
+begin 
+sensor value 0.000000 
+sensor value -1852.013428 
+sensor value -1437.469238 
+sensor value 1637.489014 
+sensor value -168.574951 
+sensor value -1181.309937 
+sensor value -1450.683960 
+sensor value -1330.200928 
+sensor value 197.919189 
+sensor value -559.313232 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -433.639038 
+sensor value -248.205933 
+sensor value 1041.638550 
+sensor value 48.121826 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -551.161011 
+sensor value -572.418579 
+sensor value -313.360840 
+sensor value -163.537720 
+sensor value 1497.720703 
+sensor value 498.198914 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1443.433350 
+sensor value -357.017273 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 428.985840 
+sensor value -1000.113892 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1530.291016 
+sensor value -1053.426514 
+sensor value -2282.423828 
+sensor value 945.498657 
+sensor value -1012.727051 
+sensor value -2306.021484 
+sensor value 954.138428 
+sensor value -901.607544 
+sensor value -2489.956299 
+sensor value 807.678223 
+sensor value -1361.828857 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2357.652588 
+sensor value 984.982788 
+sensor value -922.114746 
+sensor value -2374.311523 
+sensor value -6350.584961 
+sensor value -7872.618164 
+sensor value -882.600464 
+sensor value 534.639160 
+sensor value -453.277588 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 960.160034 
+sensor value -575.111694 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 323.985229 
+sensor value -441.871643 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 578.622437 
+sensor value -704.767456 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1641.986694 
+sensor value -485.080688 
+sensor value -1272.592285 
+sensor value -2057.857422 
+sensor value -2383.313232 
+sensor value -2105.717773 
+sensor value -1668.585815 
+sensor value -1411.887817 
+sensor value -1248.822754 
+sensor value 618.255249 
+sensor value -361.147949 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 929.415283 
+sensor value -84.661499 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3963.610840 
+sensor value -5471.960938 
+sensor value -2338.706787 
+sensor value -768.887329 
+sensor value 1947.582886 
+sensor value 1101.293945 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2918.046387 
+sensor value -4545.106445 
+sensor value -1324.630127 
+sensor value 266.724487 
+sensor value -457.912476 
+sensor value -2736.552246 
+sensor value -4069.577881 
+sensor value -4606.657227 
+sensor value -1053.779419 
+sensor value 691.832275 
+sensor value -2238.646729 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3593.872070 
+sensor value -394.888153 
+sensor value 1163.261108 
+sensor value 1888.955078 
+sensor value -1403.798096 
+sensor value -2847.156006 
+sensor value -6552.246094 
+sensor value -7942.254883 
+sensor value -1146.117798 
+sensor value 1907.974854 
+sensor value -439.885986 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1314.455322 
+sensor value -122.076904 
+sensor value -1175.940430 
+sensor value -277.633057 
+sensor value -1145.951416 
+sensor value 552.342163 
+sensor value -489.543152 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -324.627319 
+sensor value -1384.228760 
+sensor value 1966.443726 
+sensor value 23.061157 
+sensor value -1303.062256 
+sensor value -5131.573242 
+sensor value -6624.534668 
+sensor value -3359.303711 
+sensor value -1729.871094 
+sensor value 1544.745728 
+sensor value 61.285522 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1062.338867 
+sensor value -5.501099 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -463.657654 
+sensor value -427.119019 
+sensor value 711.186523 
+sensor value -660.081848 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -404.804199 
+sensor value -1624.794189 
+sensor value 1716.923340 
+sensor value -47.560547 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -917.233032 
+sensor value 160.854492 
+sensor value -1569.248169 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1026.127319 
+sensor value -1206.469727 
+sensor value -2911.423828 
+sensor value -3682.047363 
+sensor value -3722.016357 
+sensor value -3997.472412 
+sensor value -4003.476074 
+sensor value 109.764526 
+sensor value -440.823730 
+sensor value -2087.379150 
+sensor value 996.423645 
+sensor value 13.412720 
+sensor value -1492.409912 
+sensor value 1151.047729 
+sensor value -1414.686035 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2609.378174 
+sensor value 438.085449 
+sensor value -1998.312256 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2869.148682 
+sensor value -2902.226318 
+sensor value -2591.756104 
+sensor value -2143.531250 
+sensor value -1890.742554 
+sensor value -1717.827881 
+sensor value -1336.692627 
+sensor value 1522.541748 
+sensor value -123.014160 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -154.616455 
+sensor value -2008.369263 
+sensor value 483.510345 
+sensor value -2486.610840 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3838.201416 
+sensor value -4373.200195 
+sensor value -4244.498047 
+sensor value -3387.519043 
+sensor value -2638.501953 
+sensor value 1312.855835 
+sensor value -682.353516 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1371.905273 
+sensor value -4693.884277 
+sensor value -5692.898438 
+sensor value 1371.269165 
+sensor value 566.313965 
+sensor value 467.042358 
+sensor value -807.881531 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1409.379883 
+sensor value -1419.034424 
+sensor value -1225.678345 
+sensor value -1127.138428 
+sensor value -4827.011719 
+sensor value -6507.926758 
+sensor value -3453.729004 
+sensor value -1635.340088 
+sensor value 1990.724243 
+sensor value 87.591553 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -844.137207 
+sensor value -1282.810669 
+sensor value 1880.429077 
+sensor value -384.625000 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1705.970581 
+sensor value 977.609985 
+sensor value -1752.792236 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3018.898926 
+sensor value 460.246124 
+sensor value -566.687500 
+sensor value -1612.651001 
+sensor value -2008.249512 
+sensor value -2129.562012 
+sensor value -2232.321533 
+sensor value -2198.020020 
+sensor value 1651.887329 
+sensor value -40.800171 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -859.142822 
+sensor value 347.288696 
+sensor value -622.609009 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 184.876465 
+sensor value -1740.503906 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 940.331970 
+sensor value -1627.254639 
+RED LED Current - 
+sensor value -2842.741943 
+sensor value -3106.074707 
+sensor value -3153.182373 
+sensor value -6258.620605 
+sensor value -7127.002441 
+sensor value -395.526550 
+sensor value -944.531067 
+sensor value -931.804504 
+sensor value -647.483582 
+sensor value -238.670898 
+sensor value -2709.392090 
+sensor value -3629.630371 
+sensor value -847.020386 
+sensor value 775.981445 
+sensor value 1558.264526 
+sensor value 894.455444 
+sensor value 1458.706909 
+sensor value 246.810181 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3664.865723 
+sensor value -5460.062988 
+sensor value -2871.932373 
+sensor value -1552.903564 
+sensor value -508.032898 
+sensor value 6.010132 
+sensor value 1803.039062 
+sensor value 861.087219 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1738.311523 
+sensor value 628.517151 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1477.479492 
+sensor value -3486.162598 
+sensor value -4360.414062 
+sensor value -4421.352539 
+sensor value -4321.494629 
+sensor value -4146.251953 
+sensor value -130.119385 
+sensor value -1991.620361 
+sensor value -2822.909424 
+sensor value -2900.758057 
+sensor value -2611.993896 
+sensor value 1421.463623 
+sensor value -176.726685 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -694.873352 
+sensor value 569.358765 
+sensor value -1351.676758 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2235.848145 
+sensor value -2596.442139 
+sensor value -5427.810059 
+sensor value -6439.211426 
+sensor value 193.608459 
+sensor value -488.749390 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -802.872192 
+sensor value -3664.100830 
+sensor value -4737.393066 
+sensor value -2164.936035 
+sensor value -590.414062 
+sensor value 814.017883 
+sensor value 1724.992676 
+sensor value 1755.334961 
+sensor value 1735.344727 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 808.731201 
+sensor value 1518.156250 
+sensor value 261.058716 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 230.985718 
+sensor value -1648.568359 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -4685.963379 
+sensor value -5911.545898 
+sensor value -546.321594 
+sensor value -79.279175 
+sensor value -1735.452515 
+sensor value 1335.062256 
+sensor value -1522.342285 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2847.206055 
+sensor value -2543.936523 
+sensor value -2087.813965 
+sensor value -1568.889526 
+sensor value -1283.414551 
+sensor value -1410.918457 
+sensor value -1576.154053 
+sensor value 1994.502808 
+sensor value 56.052246 
+sensor value -1844.691772 
+sensor value -5335.370605 
+sensor value -6705.844727 
+sensor value -922.510315 
+sensor value 1652.593750 
+sensor value -1021.305908 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2298.930176 
+sensor value -3865.478027 
+sensor value -4198.321777 
+sensor value -5332.119141 
+sensor value -5319.075195 
+sensor value 1284.098633 
+sensor value 698.762817 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 666.159790 
+sensor value 283.073975 
+sensor value -1754.761963 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1141.259033 
+sensor value 1392.813232 
+sensor value 47.796082 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -192.341553 
+sensor value -1312.938232 
+sensor value 1801.376465 
+sensor value -636.094971 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1599.453369 
+sensor value -3801.146484 
+sensor value -4731.802246 
+sensor value 584.025208 
+sensor value -665.873047 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1346.634033 
+sensor value 698.996948 
+sensor value -884.572083 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3759.764160 
+sensor value -5050.923828 
+sensor value 855.778687 
+sensor value 1276.550537 
+sensor value -658.108215 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3671.129395 
+sensor value -4855.392578 
+sensor value -8662.054688 
+sensor value -9651.875977 
+sensor value -7943.909668 
+sensor value -6696.347656 
+sensor value -2726.430664 
+sensor value -260.797363 
+sensor value -510.864746 
+sensor value -1543.739868 
+sensor value -8518.297852 
+sensor value -10915.316406 
+sensor value -515.744812 
+sensor value -4941.343262 
+sensor value -8829.599609 
+sensor value -3208.421631 
+sensor value -400.441650 
+sensor value -860.433350 
+sensor value -1091.289307 
+sensor value -2904.835205 
+sensor value -4941.944824 
+sensor value -6882.455566 
+sensor value -7468.816895 
+sensor value 22.806641 
+sensor value 1910.007080 
+sensor value -824.852356 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -7657.317383 
+sensor value -7989.316406 
+sensor value -2374.980225 
+sensor value 463.661621 
+sensor value 482.825684 
+sensor value -2077.010498 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1291.802246 
+sensor value -1079.887207 
+sensor value -3007.531250 
+sensor value -4172.381836 
+sensor value -4788.765625 
+sensor value -3358.317627 
+sensor value -6287.612793 
+sensor value -13017.452148 
+sensor value -11644.845703 
+sensor value -2767.747070 
+sensor value 1864.944336 
+sensor value -11982.458984 
+sensor value -14562.617188 
+sensor value 18.951660 
+sensor value 1608.538574 
+sensor value -11487.605469 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -11501.369141 
+sensor value -2265.078613 
+sensor value 294.375732 
+sensor value -2365.649170 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1768.968994 
+sensor value -13870.489258 
+sensor value -17441.863281 
+sensor value -8300.318359 
+sensor value -6926.083496 
+sensor value -11704.203125 
+sensor value -6049.841309 
+sensor value -140.699219 
+sensor value -7243.425781 
+sensor value -2011.716431 
+sensor value -2635.981934 
+sensor value -13048.177734 
+sensor value -16089.867188 
+sensor value -2250.907715 
+sensor value -1466.874023 
+sensor value -5262.406250 
+RED LED Current + 
+sensor value -1073.922852 
+sensor value -4884.376953 
+sensor value 862.954834 
+sensor value -1134.663574 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1111.563721 
+sensor value -2877.291504 
+sensor value -9374.473633 
+sensor value -26256.156250 
+sensor value -26325.468750 
+sensor value -12801.507812 
+sensor value -12043.591797 
+sensor value -22748.863281 
+sensor value -13950.330078 
+sensor value -794.374146 
+sensor value 391.869141 
+sensor value -1169.629883 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 546.015137 
+sensor value -7531.119141 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -11159.905273 
+sensor value -12889.674805 
+sensor value -12544.480469 
+sensor value -10902.039062 
+sensor value 347.561401 
+sensor value -2976.330811 
+sensor value -6830.591797 
+sensor value -14997.308594 
+sensor value -20014.656250 
+sensor value -8563.425781 
+sensor value -5752.780762 
+sensor value -17384.945312 
+sensor value -14963.369141 
+sensor value -1558.682861 
+sensor value -5828.582031 
+sensor value -3486.581055 
+sensor value -1434.543945 
+sensor value 744.894043 
+sensor value -6826.740723 
+sensor value -10131.688477 
+sensor value -6699.091797 
+sensor value -2186.248779 
+sensor value -4489.330078 
+sensor value -12236.685547 
+sensor value -11756.626953 
+sensor value -1278.922852 
+sensor value -6563.188477 
+sensor value -2939.821289 
+sensor value 58.068970 
+sensor value -5640.872559 
+sensor value -8763.342773 
+sensor value -9762.696289 
+sensor value -9412.692383 
+sensor value -8183.739746 
+sensor value -6856.627930 
+sensor value -6046.087402 
+sensor value 560.982178 
+sensor value 299.410645 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 198.914368 
+sensor value 145.391418 
+sensor value 115.939568 
+sensor value 98.848579 
+sensor value 88.137436 
+sensor value 80.782364 
+sensor value 1367.025146 
+sensor value 1064.833496 
+sensor value -1365.379028 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2508.244141 
+sensor value -2999.933594 
+sensor value 1054.480347 
+sensor value -1104.814941 
+sensor value -2914.474854 
+sensor value -3296.229736 
+sensor value -2496.151123 
+sensor value -1566.337646 
+sensor value -1077.833130 
+sensor value -814.947083 
+sensor value -307.785583 
+sensor value 305.204468 
+sensor value 594.437134 
+sensor value 1056.325806 
+sensor value -370.873810 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1052.617676 
+sensor value -1356.801270 
+sensor value -1470.762329 
+sensor value -1489.856201 
+sensor value 1057.040039 
+sensor value -1561.009766 
+sensor value -4434.366211 
+sensor value -1418.081055 
+sensor value 1244.424072 
+sensor value -1523.646362 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3893.427246 
+sensor value -4945.036133 
+sensor value -1113.917603 
+sensor value 466.491943 
+sensor value -3300.164551 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -5042.474609 
+sensor value -5582.207031 
+sensor value -93.965088 
+sensor value -844.295288 
+sensor value -2487.845215 
+sensor value -2958.731689 
+sensor value -2779.273926 
+sensor value -2553.096191 
+sensor value -2381.002930 
+sensor value -2239.299316 
+sensor value -1417.879272 
+sensor value -4422.350586 
+sensor value -5303.645508 
+sensor value -5457.856445 
+sensor value -5398.644531 
+sensor value -5237.583496 
+sensor value -5031.165039 
+sensor value -4807.873047 
+sensor value -4581.892090 
+sensor value -4360.150391 
+sensor value -4145.880371 
+sensor value -3622.402344 
+sensor value 416.169556 
+sensor value -1147.619507 
+sensor value 1011.438599 
+sensor value 1713.640259 
+sensor value -2759.813965 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -404.245972 
+sensor value 196.864380 
+sensor value -4568.098633 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -6444.458984 
+sensor value -6265.523438 
+sensor value -960.956055 
+sensor value -1663.111206 
+sensor value 725.100586 
+sensor value 1528.489380 
+sensor value -2824.460938 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -4544.143066 
+sensor value -5265.121582 
+sensor value -5166.895508 
+sensor value 226.538086 
+sensor value -1176.391724 
+sensor value -3028.889648 
+sensor value -3851.289551 
+sensor value 792.189331 
+sensor value 1558.925049 
+sensor value -5690.348145 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -9059.804688 
+sensor value -10133.770508 
+sensor value -10070.268555 
+sensor value -9792.550781 
+sensor value -4906.138672 
+sensor value -2742.836914 
+sensor value -6131.899902 
+sensor value -6650.989258 
+sensor value -6098.781250 
+sensor value -5681.934082 
+sensor value -5026.911133 
+sensor value -3289.090820 
+sensor value -1383.675293 
+sensor value -444.158600 
+sensor value 94.585815 
+sensor value -1808.280884 
+sensor value 1826.822998 
+sensor value -1019.711060 
+sensor value -3046.612305 
+sensor value -3953.009277 
+sensor value 158.443359 
+sensor value -1062.933472 
+sensor value -2265.098633 
+sensor value -2791.466309 
+sensor value 1475.443237 
+sensor value -2361.855225 
+sensor value -5142.183594 
+sensor value -6039.621094 
+sensor value -6325.911133 
+sensor value -6309.348145 
+sensor value -6146.590820 
+sensor value -5598.980469 
+sensor value -4878.515625 
+sensor value -4410.149414 
+sensor value 377.946777 
+sensor value -1179.652222 
+sensor value -1650.120361 
+sensor value 1717.630249 
+sensor value -209.534729 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1137.234009 
+sensor value -1558.412354 
+sensor value -1724.062012 
+sensor value -1761.947266 
+sensor value 480.463013 
+sensor value -1158.470215 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+RED LED Current + 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1605.282593 
+sensor value -1782.172607 
+sensor value -1824.094971 
+sensor value -1481.590820 
+sensor value -1019.816162 
+sensor value -4181.082031 
+sensor value -5608.753906 
+sensor value -1390.951050 
+sensor value 684.782654 
+sensor value -3098.582275 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -4853.941895 
+sensor value -5584.579102 
+sensor value -5801.262695 
+sensor value -5763.878418 
+sensor value -5604.454102 
+sensor value -2062.465576 
+sensor value 669.448425 
+sensor value -385.130310 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -886.157715 
+sensor value -1106.969727 
+sensor value -1186.707031 
+sensor value -1196.186035 
+sensor value -853.343018 
+sensor value 153.966049 
+sensor value -790.321838 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1228.012695 
+sensor value -1409.753906 
+sensor value -1245.502197 
+sensor value -917.811035 
+sensor value -736.697937 
+sensor value -630.960815 
+sensor value -564.304077 
+sensor value 1613.260620 
+sensor value 531.113770 
+sensor value -813.596436 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1444.544678 
+sensor value 1039.475342 
+sensor value -506.156219 
+sensor value -1716.331787 
+sensor value -2260.011230 
+sensor value 286.207031 
+sensor value 1984.207031 
+sensor value -1768.433350 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3344.818359 
+sensor value -3829.107910 
+sensor value -3969.623047 
+sensor value 337.157349 
+sensor value -773.545715 
+sensor value -384.120361 
+sensor value -6817.266602 
+sensor value -6528.730469 
+sensor value -6421.506348 
+sensor value -9100.044922 
+sensor value -10173.412109 
+sensor value -6224.612305 
+sensor value -4461.902344 
+sensor value -7713.937500 
+sensor value -8031.629883 
+sensor value -7226.708008 
+sensor value -6659.850098 
+sensor value -1810.734497 
+sensor value -1488.169800 
+sensor value -404.887817 
+sensor value 90.830566 
+sensor value -3886.708496 
+sensor value -6207.039551 
+sensor value -11027.617188 
+sensor value -13090.589844 
+sensor value -13466.791016 
+sensor value -11991.860352 
+sensor value -9958.408203 
+sensor value -6034.509766 
+sensor value -4179.685547 
+sensor value -5765.928223 
+sensor value -2077.229248 
+sensor value 268.495422 
+sensor value -1621.133301 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1233.146484 
+sensor value -407.042358 
+sensor value -1739.751221 
+sensor value 353.210571 
+sensor value 1165.108398 
+sensor value -1358.375000 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2354.005615 
+sensor value -2585.694824 
+sensor value -2634.452637 
+sensor value 495.379272 
+sensor value -626.168213 
+sensor value -2616.354004 
+sensor value -485.313599 
+sensor value 357.218079 
+sensor value -2257.191650 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3274.789551 
+sensor value -3494.502686 
+sensor value -3515.180908 
+sensor value -3438.980713 
+sensor value -3317.759277 
+sensor value -3177.736328 
+sensor value -2826.920898 
+sensor value -1729.784424 
+sensor value 1689.101807 
+sensor value 565.225464 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 208.264008 
+sensor value 231.268539 
+sensor value 236.728241 
+sensor value 233.548798 
+sensor value 226.282166 
+sensor value 217.210983 
+sensor value 207.477875 
+sensor value 197.681274 
+sensor value 188.091461 
+sensor value 1835.884766 
+sensor value 225.341385 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -559.781555 
+sensor value 1769.295166 
+sensor value -1434.247803 
+sensor value -4904.294922 
+sensor value -3768.317627 
+sensor value -3731.279053 
+sensor value -3928.053467 
+sensor value -3943.738770 
+sensor value -6742.537109 
+sensor value -7931.917480 
+sensor value -8313.128906 
+sensor value -8101.272461 
+sensor value -3865.791016 
+sensor value -2973.551270 
+sensor value -5367.176758 
+sensor value -3037.509766 
+sensor value -1559.128784 
+sensor value -3693.202148 
+sensor value -4443.087891 
+sensor value -4504.570312 
+sensor value -4423.860840 
+sensor value -4276.327148 
+sensor value -4100.035156 
+sensor value -3914.132324 
+sensor value -3535.649902 
+sensor value 446.678223 
+sensor value 1267.666626 
+sensor value 1196.521973 
+sensor value 181.400543 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -314.426575 
+sensor value -546.714539 
+sensor value -645.752686 
+sensor value -677.863159 
+sensor value -676.769409 
+sensor value -659.632141 
+sensor value -635.164185 
+sensor value -607.770325 
+sensor value -387.065155 
+sensor value 347.330505 
+sensor value -1849.985840 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2868.238281 
+sensor value -3290.791992 
+sensor value -3414.607910 
+sensor value -3390.805664 
+sensor value -3296.133301 
+sensor value -474.061279 
+sensor value 1122.420776 
+sensor value -2857.312012 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1189.553711 
+sensor value 90.529602 
+sensor value -2179.969238 
+sensor value -588.747925 
+sensor value -662.427185 
+sensor value -1378.022461 
+sensor value -1324.397217 
+sensor value -5643.172363 
+sensor value -7013.508789 
+sensor value -7504.804688 
+sensor value -4921.773438 
+sensor value -3546.583496 
+sensor value -5426.547852 
+sensor value -3508.061523 
+sensor value -443.448730 
+sensor value -4329.515625 
+sensor value -5911.854492 
+sensor value -5607.845703 
+sensor value -4590.711914 
+sensor value -3985.781494 
+sensor value -3595.227783 
+sensor value -3317.996094 
+sensor value -3102.421875 
+sensor value -2733.660156 
+sensor value -2299.785400 
+sensor value 603.408203 
+sensor value 1998.062622 
+sensor value 598.444458 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 513.190430 
+sensor value -121.131104 
+sensor value -1682.989136 
+sensor value -2397.740723 
+sensor value -2684.912109 
+sensor value -62.677979 
+sensor value -463.405029 
+sensor value 176.646240 
+sensor value 293.779541 
+sensor value -2481.854980 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3572.003906 
+sensor value -3409.401367 
+sensor value -2836.906738 
+sensor value -2490.217529 
+sensor value -2261.349365 
+sensor value 541.679810 
+sensor value -1271.812500 
+sensor value -3588.912598 
+RED LED Current + 
+sensor value -4622.491699 
+sensor value -4821.088867 
+sensor value -4610.664062 
+sensor value -4395.727539 
+sensor value -4183.872070 
+sensor value -3978.736328 
+sensor value -3781.882812 
+sensor value -3593.847412 
+sensor value -3414.674316 
+sensor value -3055.870117 
+sensor value -1756.729980 
+sensor value -222.592667 
+sensor value 664.082092 
+sensor value -1768.673096 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2902.874023 
+sensor value -3380.698975 
+sensor value -3529.092529 
+sensor value -3514.377930 
+sensor value -3421.065674 
+sensor value -3292.010010 
+sensor value -1859.715210 
+sensor value -1212.890259 
+sensor value -2251.203125 
+sensor value -2510.237549 
+sensor value -1695.142334 
+sensor value -568.444336 
+sensor value 1279.969604 
+sensor value 993.086609 
+sensor value 456.548798 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 185.635803 
+sensor value 49.948914 
+sensor value -16.943087 
+sensor value -221.080261 
+sensor value -2032.222412 
+sensor value -222.288940 
+sensor value 470.934143 
+sensor value -1938.101562 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2964.598633 
+sensor value -3388.775879 
+sensor value -3510.987305 
+sensor value -3484.041992 
+sensor value -748.779724 
+sensor value 405.247925 
+sensor value -1682.883057 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1957.612305 
+sensor value -1536.139404 
+sensor value -1294.434692 
+sensor value -1145.691406 
+sensor value -1045.593872 
+sensor value -783.158203 
+sensor value -448.603577 
+sensor value -275.670746 
+sensor value -185.180298 
+sensor value 1146.150513 
+sensor value 142.784439 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -158.048691 
+sensor value 858.696838 
+sensor value 945.477661 
+sensor value 872.223938 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -565.810181 
+sensor value -1248.020508 
+sensor value -1547.622925 
+sensor value -1654.694580 
+sensor value -1665.937256 
+sensor value -1442.166504 
+sensor value -1110.139771 
+sensor value -922.198975 
+sensor value -808.623962 
+sensor value 1902.970215 
+sensor value 1105.976685 
+sensor value -1586.480103 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -4232.033691 
+sensor value -5408.831055 
+sensor value -5845.810547 
+sensor value -5913.975098 
+sensor value -5801.930176 
+sensor value -5605.411133 
+sensor value -5372.812500 
+sensor value -5128.474609 
+sensor value -4884.457520 
+sensor value -4458.200684 
+sensor value -2953.869873 
+sensor value -1152.945923 
+sensor value -252.953766 
+sensor value 280.950012 
+sensor value 1913.686646 
+sensor value 1654.046265 
+sensor value 577.186707 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 41.787125 
+sensor value 1070.682251 
+sensor value 1450.373291 
+sensor value 217.421265 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -384.714111 
+sensor value -666.736206 
+sensor value -786.898987 
+sensor value -825.749146 
+sensor value 464.801453 
+sensor value 1859.799927 
+sensor value 972.153442 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 1638.510864 
+sensor value -2118.429443 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3792.923828 
+sensor value -3221.327148 
+sensor value 77.604736 
+sensor value -3287.277832 
+sensor value -2853.169922 
+sensor value -5241.871094 
+sensor value -2867.070557 
+sensor value -5440.169922 
+sensor value -6644.365234 
+sensor value -8445.488281 
+sensor value -9018.115234 
+sensor value -6981.436523 
+sensor value -5204.944336 
+sensor value -5598.563477 
+sensor value -5559.707031 
+sensor value -4730.703125 
+sensor value -3631.656494 
+sensor value -3010.626709 
+sensor value -2544.090576 
+sensor value -1515.054932 
+sensor value -331.073456 
+sensor value 250.160660 
+sensor value 617.469788 
+sensor value 872.202271 
+sensor value 974.113525 
+sensor value 999.546082 
+sensor value 1079.413574 
+sensor value 1183.685913 
+sensor value 1205.118408 
+sensor value 1707.372437 
+sensor value 1070.316650 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 735.678162 
+sensor value 1786.162842 
+sensor value 1539.992554 
+sensor value 1374.837036 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -270.672180 
+sensor value -3320.638428 
+sensor value -4715.539062 
+sensor value -5275.112305 
+sensor value -5324.527832 
+sensor value -5125.788086 
+sensor value -3614.785156 
+sensor value -1421.927612 
+sensor value -1811.406006 
+sensor value -3437.119629 
+sensor value -1971.715210 
+sensor value -452.299316 
+sensor value -1024.125488 
+sensor value -1183.729736 
+sensor value -989.231812 
+sensor value -720.160278 
+sensor value -572.252625 
+sensor value 802.487549 
+sensor value 1356.169922 
+sensor value 209.735138 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -350.336578 
+sensor value -520.756470 
+sensor value -393.746948 
+sensor value 1071.117188 
+sensor value 25.142029 
+sensor value -984.177124 
+sensor value -1448.594116 
+sensor value -1637.860840 
+sensor value -1689.334961 
+sensor value -1580.747192 
+sensor value -1397.317139 
+sensor value 14.814453 
+sensor value 605.888428 
+sensor value -504.023254 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1028.891113 
+sensor value 123.460083 
+sensor value -95.248596 
+sensor value -2370.413574 
+sensor value -3413.586914 
+sensor value -3834.837402 
+sensor value -3944.697754 
+sensor value -2612.040527 
+sensor value 1045.006592 
+sensor value -1983.944824 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3485.142822 
+sensor value -5289.881836 
+sensor value -5230.163086 
+sensor value -4361.475586 
+sensor value -3834.016846 
+sensor value -3484.662109 
+sensor value -1941.004028 
+sensor value 294.334106 
+sensor value -2641.759277 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3257.355469 
+sensor value -2826.703857 
+sensor value -1494.215454 
+sensor value 1540.370361 
+sensor value -1791.104126 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3359.776611 
+sensor value -2747.616699 
+sensor value -1831.436768 
+sensor value -2678.166016 
+sensor value -3168.843262 
+sensor value -2876.619629 
+sensor value -2664.628906 
+sensor value -2496.676270 
+sensor value -2354.145752 
+sensor value -2227.435547 
+sensor value -2036.139160 
+sensor value -1311.836182 
+sensor value 807.871582 
+sensor value 1726.200928 
+sensor value 809.985840 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 346.651733 
+sensor value 205.943970 
+sensor value 1325.602295 
+sensor value 1805.777832 
+sensor value 863.875244 
+sensor value 1617.264404 
+sensor value 1854.403809 
+sensor value 605.310425 
+sensor value -14.168114 
+sensor value -313.667511 
+sensor value -450.952972 
+sensor value -506.344482 
+sensor value -432.835266 
+sensor value -298.748810 
+sensor value -226.522919 
+sensor value -186.022980 
+sensor value 1068.638550 
+sensor value 1637.204346 
+sensor value 629.215698 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 125.876915 
+sensor value -32.966248 
+sensor value -21.176659 
+RED LED Current + 
+sensor value -14.959080 
+sensor value -11.568310 
+sensor value 1103.689941 
+sensor value 1608.279541 
+sensor value -185.999176 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1049.956177 
+sensor value -1442.398193 
+sensor value -1509.097412 
+sensor value -1416.478760 
+sensor value -1336.907593 
+sensor value -1265.607178 
+sensor value -28.126160 
+sensor value 487.853638 
+sensor value -529.968689 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1009.631409 
+sensor value 34.381531 
+sensor value -251.395691 
+sensor value -2180.673340 
+sensor value -3061.065674 
+sensor value -3412.149902 
+sensor value -3498.395996 
+sensor value -2282.446289 
+sensor value 1501.117676 
+sensor value 1893.635864 
+sensor value -1332.036743 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2860.754395 
+sensor value -3530.562500 
+sensor value -3684.495850 
+sensor value -2982.248535 
+sensor value -1966.503174 
+sensor value -1426.615723 
+sensor value -1130.300049 
+sensor value -959.130554 
+sensor value -852.750000 
+sensor value 332.957947 
+sensor value 186.743896 
+sensor value -2717.260986 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -4056.287842 
+sensor value -4604.960938 
+sensor value -4757.627930 
+sensor value -4714.850586 
+sensor value -4578.518555 
+sensor value -4400.249023 
+sensor value -4206.045898 
+sensor value -4008.899902 
+sensor value -3815.144043 
+sensor value -3548.263428 
+sensor value -2285.726318 
+sensor value -651.721924 
+sensor value 155.201202 
+sensor value 541.972534 
+sensor value 715.885864 
+sensor value 1837.240234 
+sensor value 689.439270 
+sensor value -2156.611572 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3481.363281 
+sensor value -4037.236084 
+sensor value -4207.290527 
+sensor value -4186.423828 
+sensor value -4073.662109 
+sensor value -3919.187500 
+sensor value -3748.295898 
+sensor value -3573.640137 
+sensor value -2288.147949 
+sensor value 1667.350464 
+sensor value 1023.897949 
+sensor value 1124.611694 
+sensor value 1066.241455 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -180.982071 
+sensor value -780.262939 
+sensor value 529.982056 
+sensor value -1107.583008 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1873.085205 
+sensor value -1084.380737 
+sensor value -189.676636 
+sensor value -1507.384766 
+sensor value -2108.229736 
+sensor value -2267.854248 
+sensor value -2210.002686 
+sensor value -2127.797852 
+sensor value -2035.812500 
+sensor value -1681.855469 
+sensor value -1209.799561 
+sensor value -951.640564 
+sensor value -803.325684 
+sensor value -711.833435 
+sensor value -570.556274 
+sensor value -165.905579 
+sensor value 276.781097 
+sensor value 484.279510 
+sensor value 572.846802 
+sensor value 601.671936 
+sensor value 600.868225 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 585.742432 
+sensor value 564.036560 
+sensor value 539.701294 
+sensor value 514.700745 
+sensor value 489.962036 
+sensor value 465.951477 
+sensor value 442.904572 
+sensor value 420.910675 
+sensor value 399.933594 
+sensor value 379.965057 
+sensor value 360.984497 
+sensor value 342.940552 
+sensor value 325.799011 
+sensor value 309.507568 
+sensor value 294.037567 
+sensor value 279.345764 
+sensor value 265.383636 
+sensor value 252.105927 
+sensor value 239.499863 
+sensor value 227.538483 
+sensor value 216.163071 
+sensor value 205.362137 
+sensor value 195.090973 
+sensor value 185.316559 
+sensor value 176.044617 
+sensor value 167.243225 
+sensor value 158.892136 
+sensor value 150.950302 
+sensor value 143.396851 
+sensor value 136.223160 
+sensor value 129.426910 
+sensor value 122.980316 
+sensor value 116.844727 
+sensor value 111.008621 
+sensor value 105.445679 
+sensor value 100.150681 
+sensor value 95.131157 
+sensor value 90.370537 
+sensor value 85.841965 
+sensor value 81.546082 
+sensor value 77.466843 
+sensor value 73.610397 
+sensor value 69.963531 
+sensor value 66.476570 
+sensor value 63.142616 
+sensor value 59.976547 
+sensor value 56.973675 
+sensor value 54.119354 
+sensor value 51.424515 
+sensor value 48.853844 
+sensor value 46.409798 
+sensor value 44.085457 
+sensor value 1085.393921 
+sensor value 68.802582 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -424.979858 
+sensor value 933.598267 
+sensor value -716.214172 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1497.236816 
+sensor value -1838.580811 
+sensor value -1958.717651 
+sensor value -1968.829102 
+sensor value -1925.432373 
+sensor value -1857.195557 
+sensor value -1619.585327 
+sensor value -1305.829834 
+sensor value -1121.930176 
+sensor value -1005.390869 
+sensor value -924.323975 
+sensor value -602.912415 
+sensor value -173.046265 
+sensor value 39.270172 
+sensor value 141.086884 
+sensor value 186.897491 
+sensor value 1962.338867 
+sensor value 1031.646484 
+sensor value 282.493286 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 633.749756 
+sensor value -449.442688 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -962.738159 
+sensor value -1187.591797 
+sensor value -1267.320312 
+sensor value -1274.828857 
+sensor value 393.462952 
+sensor value 1074.178101 
+sensor value -380.519836 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -891.175903 
+sensor value -795.866089 
+sensor value -2189.296387 
+sensor value 119.655640 
+sensor value 1025.119873 
+sensor value -1700.753296 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2978.509277 
+sensor value -594.195679 
+sensor value 365.233643 
+sensor value -2201.152344 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -3213.654297 
+sensor value -3629.155762 
+sensor value -3799.856445 
+sensor value -3245.175781 
+sensor value -2357.191650 
+sensor value -1869.553711 
+sensor value -1587.666016 
+sensor value -1412.297119 
+sensor value -1083.504883 
+sensor value -688.517212 
+sensor value -480.439240 
+sensor value -367.919434 
+sensor value -95.163132 
+sensor value 248.445236 
+sensor value 525.853821 
+sensor value 643.075317 
+sensor value 562.678223 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 509.936279 
+sensor value 471.900543 
+sensor value 441.930237 
+sensor value 533.769043 
+sensor value 556.754761 
+sensor value 428.683411 
+sensor value 356.187134 
+sensor value 312.353210 
+sensor value 283.487183 
+sensor value 262.574738 
+sensor value 246.007050 
+sensor value 415.623657 
+sensor value -2466.504395 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -4068.987305 
+sensor value -6578.825195 
+sensor value -7858.364746 
+sensor value -8850.029297 
+sensor value -9054.428711 
+sensor value -8759.714844 
+sensor value -8477.551758 
+sensor value -7392.239258 
+sensor value -5756.479004 
+sensor value -4823.529297 
+sensor value -4253.634766 
+sensor value -3873.479492 
+sensor value -2548.118896 
+sensor value -797.730713 
+sensor value 69.112282 
+sensor value 499.559021 
+sensor value 745.870972 
+sensor value 884.491211 
+sensor value 929.913452 
+sensor value 933.262573 
+sensor value 928.725586 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 916.318359 
+sensor value 887.833130 
+sensor value 852.271729 
+sensor value 814.169617 
+sensor value 775.766052 
+RED LED Current + 
+sensor value 738.165283 
+sensor value 877.632385 
+sensor value 647.644165 
+sensor value -1068.960815 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -1873.683105 
+sensor value -2217.264648 
+sensor value -2270.604736 
+sensor value -2244.905762 
+sensor value -2240.187988 
+sensor value -2182.963623 
+sensor value -2101.711914 
+sensor value -2010.865967 
+sensor value -1917.584229 
+sensor value -1812.826660 
+sensor value -1165.182861 
+sensor value -283.213806 
+sensor value 150.642227 
+sensor value 356.955994 
+sensor value 448.050537 
+sensor value 481.159302 
+sensor value 485.393250 
+sensor value 479.725403 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 469.390503 
+sensor value 452.874329 
+sensor value 433.778809 
+sensor value 413.884094 
+sensor value 394.101257 
+sensor value 374.876099 
+sensor value 356.392883 
+sensor value 338.704559 
+sensor value 321.830017 
+sensor value 305.774719 
+sensor value 290.510895 
+sensor value 275.995667 
+sensor value 262.213409 
+sensor value 249.105026 
+sensor value 236.650635 
+sensor value 342.012451 
+sensor value 376.227173 
+sensor value 258.001282 
+sensor value 311.658569 
+sensor value 195.253021 
+sensor value -1390.681519 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value -2124.258545 
+sensor value -2427.257324 
+sensor value -2514.411133 
+sensor value -2494.931885 
+sensor value -2307.111572 
+sensor value -1799.623047 
+sensor value -4814.638672 
+sensor value -5126.373535 
+sensor value -4871.117188 
+sensor value -5193.131836 
+sensor value -5221.649414 
+sensor value -4931.593262 
+sensor value -4682.789062 
+sensor value -4635.876465 
+sensor value -4323.710938 
+sensor value -4079.104004 
+sensor value -4040.634521 
+sensor value -2851.480469 
+sensor value -1142.860596 
+sensor value -287.772308 
+sensor value 133.210876 
+sensor value 346.269714 
+sensor value 491.119629 
+sensor value 586.864990 
+sensor value 618.818237 
+sensor value 619.111755 
+sensor value 616.618896 
+Peak reached: 0 
+ 0 
+0 
+CurrentMoving Avg: 0 0 0 0 0 0 0 0 0 0 
+AVg. BPM: 0 
+RMS Ratio: 0 
+BEAT 
+BPM: 0 | SaO2: 0% 
+sensor value 612.847290 
+sensor value 595.994629 
+sensor value 585.781128 
+sensor value 579.040283 
+sensor value 561.575989 
+sensor value 539.346802 
+sensor value 515.341675 
+sensor value 666.857422 
+sensor value 711.282593 
+sensor value 527.009644 
+sensor value 424.898315 
+sensor value 365.046936 
+sensor value 327.136780 
+sensor value 300.772095 
+sensor value 280.617035 
+sensor value 263.977478 
+sensor value 249.447998 
+sensor value 236.283844 
+sensor value 224.109619 
+sensor value 212.738159 
+sensor value 202.023010 
+sensor value 191.871155 
+sensor value 194.805664 
+sensor value 204.009506 
+sensor value 203.473480 
+sensor value 198.215912 
+sensor value 190.812164 
+sensor value 182.566223 
+sensor value 174.105759 
+sensor value 165.744431 
+sensor value 157.611420 
+sensor value 149.801147 
+sensor value 142.359680 
+sensor value 135.253265 
+sensor value 128.499466 
+sensor value 122.080635 
+sensor value 115.963280 
+sensor value 110.167114 
+sensor value 104.679718 
+sensor value 99.445679 
+sensor value 94.475616 
+sensor value 89.756531 
+sensor value 85.265488 
+sensor value 81.003029 
+sensor value 76.953087 
+sensor value 73.119736 
+sensor value 69.462151 
+sensor value 65.977905 
+sensor value 62.680084 
+sensor value 59.534470 
+sensor value 56.542015 
+sensor value 53.719574 
+sensor value 51.036888 
+sensor value 48.470371 
+sensor value 46.055016 
+sensor value 43.769806 
+sensor value 41.567261 
+sensor value 39.474277 
+sensor value 37.496384 
+sensor value 35.628220 
+sensor value 33.860931 
+sensor value 32.181824 
+sensor value 30.578304 
+sensor value 29.039864 
+sensor value 27.583628 
+sensor value 26.212196 
+sensor value 24.922806 
+sensor value 23.679302 
+sensor value 22.487793 
+sensor value 21.377949 
+sensor value 20.301546 
+sensor value 19.258530 
+sensor value 18.304050 
+sensor value 17.402861 
+sensor value 16.534954 
+sensor value 15.716702 
+sensor value 14.923751 
+sensor value 14.170259 
+sensor value 13.459353 
+sensor value 12.761971 
+sensor value 12.120525 
+sensor value 11.523933 
+sensor value 10.933844 
+sensor value 10.387939 
+sensor value 9.874769 
+sensor value 9.384408 
+sensor value 8.909756 
+sensor value 8.449238 
+sensor value 8.028621 
+sensor value 7.628334 
+sensor value 7.238406 
+sensor value 6.880324 
+sensor value 6.562992 
+sensor value 6.260291 
+sensor value 5.956872 
+sensor value 5.646955 
+sensor value 5.356207 
+sensor value 5.093620 
+sensor value 4.835163 
+sensor value 4.597203 
+sensor value 4.357425 
+sensor value 4.133070 
+sensor value 3.930878 
+sensor value 3.725675 
+sensor value 3.533241 
+sensor value 3.359577 
+sensor value 3.207737 
+sensor value 3.050669 
+sensor value 2.874588 
+sensor value 2.729692 
+sensor value 2.608859 
+sensor value 2.479852 
+sensor value 2.356897 
+sensor value 2.245201 
+sensor value 2.147416 
+sensor value 2.034240 
+sensor value 1.921395 
+sensor value 1.816893 
+sensor value 1.722775 
+sensor value 1.640077 
+sensor value 1.540718 
+sensor value 1.469656 
+sensor value 1.417099 
+sensor value 1.347403 
+sensor value 1.275105 
+sensor value 1.207613 
+sensor value 1.146657 
+sensor value 1.093118 
+sensor value 1.047446 
+sensor value 0.981259 
+sensor value 0.908705 
+sensor value 0.865606 
+sensor value 0.839559 
+sensor value 0.795633 
+sensor value 0.746684 
+sensor value 0.725830 
+sensor value 0.692725 
+sensor value 0.657464 
+sensor value 0.623148 
+sensor value 0.591358 
+sensor value 0.562899 
+sensor value 0.538179 
+sensor value 0.517410 
+sensor value 0.472085 
+sensor value 0.444904 
+sensor value 0.426967 
+sensor value 0.387173 
+sensor value 0.368941 
+sensor value 0.361694 
+sensor value 0.331435 
+sensor value 0.322148 
+sensor value 0.323547 
+sensor value 0.301779 
+sensor value 0.270252 
+sensor value 0.264406 
+sensor value 0.271646 
+sensor value 0.256942 
+sensor value 0.233101 
+sensor value 0.233215 
+sensor value 0.245535 
+sensor value 0.235463 
+sensor value 0.213982 
+sensor value 0.188731 
+sensor value 0.163604 
+sensor value 0.138539 
+sensor value 0.144160 
+sensor value 0.165417 
+sensor value 0.163986 
+sensor value 0.150995 
+sensor value 0.134158 
+sensor value 0.117404 
+sensor value 0.100693 
+sensor value 0.084004 
+sensor value 0.069370 
+sensor value 0.057826 
+sensor value 0.076467 
+sensor value 0.108446 
+sensor value 0.116565 
+sensor value 0.112528 
+sensor value 0.102296 
+sensor value 0.090952 
+sensor value 0.081084 
+sensor value 0.071969 
+sensor value 0.063237 
+sensor value 0.054701 
+sensor value 0.046264 
+sensor value 0.037878 
+sensor value 0.029518 
+sensor value 0.021171 
+sensor value 0.012831 
+sensor value 0.006538 
+sensor value 0.003331 
+sensor value 0.001697 
+sensor value 0.000865 
+sensor value 0.029052 
+sensor value 0.069981 
+sensor value 0.086748 
+RED LED Current + 
+sensor value 0.091204 
+sensor value 0.089387 
+sensor value 0.084374 
+sensor value 0.077733 
+sensor value 0.070262 
+sensor value 0.062367 
+sensor value 0.054258 
+sensor value 0.046039 
+sensor value 0.037763 
+sensor value 0.029460 
+sensor value 0.021141 
+sensor value 0.012816 
+sensor value 0.006530 
+sensor value 0.003327 
+sensor value 0.001695 
+sensor value 0.000864 
+sensor value 0.000440 
+sensor value 0.000224 
+sensor value 0.000114 
+sensor value 0.000058 
+sensor value 0.000030 
+sensor value 0.000015 
+sensor value 0.000008 
+sensor value 0.000004 
+sensor value 0.000002 
+sensor value 0.000001 
+sensor value 0.000001 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+RED LED Current + 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+RED LED Current + 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0.000000 
+sensor value 0
