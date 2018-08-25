@@ -318,6 +318,7 @@ void MAX30100::writeRegister(byte address, byte val)
 		//printf("ok, value = %u",val);
 		
 	}
+	close(file_i2c);
 }
 
 uint8_t MAX30100::readRegister(uint8_t address)
@@ -351,6 +352,7 @@ uint8_t MAX30100::readRegister(uint8_t address)
 	{
 		printf("Data read: %u \n", val);
 	}
+	close(file_i2c);
 	return val;
 }
 
@@ -386,6 +388,7 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 		//printf("%u", _buff[i]);
 	}
 	//printf("\n");
+	close(file_i2c);
 	
 }
 void MAX30100::setMode(Mode mode)
