@@ -87,7 +87,6 @@ pulseoxymeter_t MAX30100::update()
   dcFilterIR = dcRemoval( (float)rawData.rawIR, dcFilterIR.w, ALPHA );
   dcFilterRed = dcRemoval( (float)rawData.rawRed, dcFilterRed.w, ALPHA );
 
-  printf("Red :%u \t IR: %u \n",dcFilterRed, dcFilterIR)
   float meanDiffResIR = meanDiff( dcFilterIR.result, &meanDiffIR);
   lowPassButterworthFilter( meanDiffResIR/*-dcFilterIR.result*/, &lpbFilterIR );
 
@@ -440,6 +439,7 @@ fifo_t MAX30100::readFIFO()
   readFrom( MAX30100_FIFO_DATA, 4, buffer );
   result.rawIR = (buffer[0] << 8) | buffer[1];
   result.rawRed = (buffer[2] << 8) | buffer[3];
+
   return result;
 }
 
