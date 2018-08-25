@@ -319,7 +319,7 @@ void MAX30100::writeRegister(byte address, byte val)
 	
 	
 	 	
-	int result = i2c_smbus_read_byte_data(file, reg);
+	int result = i2c_smbus_read_byte_data(file_i2c, address);
     if (result < 0) {
          // ERROR HANDLING: i2c transaction failed
 	} 
