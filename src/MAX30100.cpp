@@ -305,20 +305,10 @@ void MAX30100::writeRegister(byte address, byte val)
 	//----- WRITE BYTES -----
 	//buffer[0] = val;
 	//length = 1;			//<<< Number of bytes to write
-	if (write(file_i2c, &address, 1) != 1)		//write() returns the number of bytes actually written, if it doesn't match then an error occurred (e.g. no response from the device)
-	{
-		/* ERROR HANDLING: i2c transaction failed */
-		printf("Failed to write to the i2c bus.\n");
-	}
-	
-	if (write(file_i2c, &val, 1) != 1)		//write() returns the number of bytes actually written, if it doesn't match then an error occurred (e.g. no response from the device)
-	{
-		/* ERROR HANDLING: i2c transaction failed */
-		printf("Failed to write to the i2c bus.\n");
-	}
 	
 	
-	 	
+	
+	i2c_smbus_write_byte_data(file_i2c, address, val);
 	int result = i2c_smbus_read_byte_data(file_i2c, address);
     if (result < 0) {
          // ERROR HANDLING: i2c transaction failed
