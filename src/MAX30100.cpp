@@ -440,7 +440,6 @@ fifo_t MAX30100::readFIFO()
   readFrom( MAX30100_FIFO_DATA, 4, buffer );
   result.rawIR = (buffer[0] << 8) | buffer[1];
   result.rawRed = (buffer[2] << 8) | buffer[3];
-sdd
   return result;
 }
 
