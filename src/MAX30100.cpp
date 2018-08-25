@@ -382,7 +382,7 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 	}
 	else
 	{
-		buffer[59] = '\0'
+		buffer[59] = '\0';
 		printf("Data read: %s \n", buffer);
 	}
 }
