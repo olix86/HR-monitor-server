@@ -85,7 +85,7 @@ pulseoxymeter_t MAX30100::update()
 	
 	
 	fifo_t rawData = readFIFO();  
-	
+	print("rawIR %f \n",(float)rawData.rawIR);
 	dcFilterIR = dcRemoval( (float)rawData.rawIR, dcFilterIR.w, ALPHA );
 	dcFilterRed = dcRemoval( (float)rawData.rawRed, dcFilterRed.w, ALPHA );
 	
