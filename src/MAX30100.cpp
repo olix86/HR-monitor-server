@@ -323,7 +323,7 @@ void MAX30100::writeRegister(byte address, byte val)
 uint8_t MAX30100::readRegister(uint8_t address)
 {
 	int file_i2c;
-	uint8_t val;
+	int val;
 	
 	//----- OPEN THE I2C BUS -----
 	char *filename = (char*)"/dev/i2c-1";
@@ -341,7 +341,7 @@ uint8_t MAX30100::readRegister(uint8_t address)
 		return -1;
 	}
 	
-	int val = i2c_smbus_read_byte_data(file_i2c, address);
+	val = i2c_smbus_read_byte_data(file_i2c, address);
 	if (val < 0)		
 	{
 		//ERROR HANDLING: i2c transaction failed
