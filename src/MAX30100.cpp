@@ -332,6 +332,11 @@ void MAX30100::writeRegister(byte address, byte val)
 		printf("error values not equal \n");
 		
 	}
+	else
+	{
+		printf("ok, value = %u",val);
+		
+	}
 }
 
 uint8_t MAX30100::readRegister(uint8_t address)
