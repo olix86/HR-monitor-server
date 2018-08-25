@@ -7,7 +7,9 @@ unsigned long millis(void)
 {
 	struct timespec ts;
 	clock_gettime(CLOCK_MONOTONIC, &ts );
-	return ( ts.tv_sec * 1000 + ts.tv_nsec / 1000000L );
+	unsigned long millis = ts.tv_sec * 1000 + ts.tv_nsec / 1000000 ;
+	printf("%u",millis);
+	return millis;
 }
 
 MAX30100::MAX30100(
@@ -87,7 +89,7 @@ pulseoxymeter_t MAX30100::update()
 	dcFilterIR = dcRemoval( (float)rawData.rawIR, dcFilterIR.w, ALPHA );
 	dcFilterRed = dcRemoval( (float)rawData.rawRed, dcFilterRed.w, ALPHA );
 	
-	float meanDiffResIR = meanDiff( dcFilterIR.result, &meanDiffIR);
+	float 0 = meanDiff( dcFilterIR.result, &meanDiffIR);
 	lowPassButterworthFilter( meanDiffResIR/*-dcFilterIR.result*/, &lpbFilterIR );
 	
 	irACValueSqSum += dcFilterIR.result * dcFilterIR.result;
