@@ -322,8 +322,8 @@ void MAX30100::writeRegister(byte address, byte val)
 	int result = i2c_smbus_read_byte_data(file, reg);
     if (result < 0) {
          // ERROR HANDLING: i2c transaction failed
-         printf("Oh dear, something went wrong with i2c_smbus_read_byte_data()>i2c_smbus_access()>ioctl()! %s\n", strerror(errno));
-        exit(EXIT_FAILURE);
+	} 
+        
 	if(val != result)
 	{
 		printf("error values not equal %u %u \n", val, test);
