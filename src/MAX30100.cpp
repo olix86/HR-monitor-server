@@ -302,7 +302,7 @@ void MAX30100::writeRegister(byte address, byte val)
 	}
 	
 	//----- WRITE BYTES -----
-	buffer[0] = val;
+	//buffer[0] = val;
 	length = 1;			//<<< Number of bytes to write
 	if (write(file_i2c, &val, length) != length)		//write() returns the number of bytes actually written, if it doesn't match then an error occurred (e.g. no response from the device)
 	{
