@@ -89,7 +89,7 @@ pulseoxymeter_t MAX30100::update()
 	dcFilterIR = dcRemoval( (float)rawData.rawIR, dcFilterIR.w, ALPHA );
 	dcFilterRed = dcRemoval( (float)rawData.rawRed, dcFilterRed.w, ALPHA );
 	
-	float 0 = meanDiff( dcFilterIR.result, &meanDiffIR);
+	float meanDiffResIR = meanDiff( dcFilterIR.result, &meanDiffIR);
 	lowPassButterworthFilter( meanDiffResIR/*-dcFilterIR.result*/, &lpbFilterIR );
 	
 	irACValueSqSum += dcFilterIR.result * dcFilterIR.result;
