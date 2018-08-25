@@ -353,7 +353,7 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 {
 	int file_i2c;
 	
-	unsigned char buffer[60] = {1};
+	//unsigned char buffer[60] = {1};
 	
 	//----- OPEN THE I2C BUS -----
 	char *filename = (char*)"/dev/i2c-1";
@@ -386,7 +386,7 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 		printf("readFrom: ");
 		for(int i=0; i<length; i++)
 		{
-			printf("%u", buffer[i]);
+			printf("%u", _buff[i]);
 		}
 		printf("\n");
 	}
