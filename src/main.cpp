@@ -7,7 +7,7 @@ int main(){
 	
 	MAX30100* pulseOxymeter;
 	
-	pulseOxymeter = new MAX30100( MAX30100_MODE_HR_ONLY, DEFAULT_SAMPLING_RATE, DEFAULT_LED_PULSE_WIDTH, MAX30100_LED_CURRENT_24MA, true, true );
+	pulseOxymeter = new MAX30100( MAX30100_MODE_HR_ONLY, DEFAULT_SAMPLING_RATE, DEFAULT_LED_PULSE_WIDTH, MAX30100_LED_CURRENT_50MA, true, true );
 	//pulseOxymeter = new MAX30100();
 	
 	printf("begin \n");
