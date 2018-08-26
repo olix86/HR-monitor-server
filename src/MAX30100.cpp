@@ -390,7 +390,7 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 	//printf("readFrom: ");
 	for(int i=0; i<length; i++)
 	{
-		_buff[i] = i2c_smbus_read_byte_data(file_i2c, address + i);
+		_buff[i] = i2c_smbus_read_byte_data(file_i2c, address );//+ i);
 		if (_buff[i] < 0)		
 		{
 			//ERROR HANDLING: i2c transaction failed
