@@ -41,8 +41,9 @@ int main(){
 			
 		}
 		sleep(0.01);
-		//i--;
+		i--;
 	}
+	pulseOxymeter->printRegisters();
 	
 	printf("end \n");
 	return 0;	
