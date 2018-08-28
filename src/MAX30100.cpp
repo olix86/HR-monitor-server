@@ -161,6 +161,7 @@ bool MAX30100::detectPulse(float sensor_value)
 		return false;
 	}
 	
+	printf("sensor value %f \n",sensor_value);
 	printf("state : %u \n",currentPulseDetectorState);
 	
 	switch(currentPulseDetectorState)
