@@ -148,7 +148,7 @@ bool MAX30100::detectPulse(float sensor_value)
 	static uint32_t currentBeat = 0;
 	static uint32_t lastBeat = 0;
 	
-	printf("sensor value %f \n",sensor_value);
+	//printf("sensor value %f \n",sensor_value);
 	
 	if(sensor_value > PULSE_MAX_THRESHOLD)
 	{
