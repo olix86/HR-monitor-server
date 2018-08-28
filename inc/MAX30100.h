@@ -49,7 +49,7 @@
 #define MEAN_FILTER_SIZE        15  
 
 /* Pulse detection parameters */
-#define PULSE_MIN_THRESHOLD         50 //300 is good for finger, but for wrist you need like 20, and there is shitloads of noise
+#define PULSE_MIN_THRESHOLD         20 //300 is good for finger, but for wrist you need like 20, and there is shitloads of noise
 #define PULSE_MAX_THRESHOLD         2000
 #define PULSE_GO_DOWN_THRESHOLD     1
 
