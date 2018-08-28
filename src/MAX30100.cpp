@@ -86,7 +86,7 @@ pulseoxymeter_t MAX30100::update()
 	
 	fifo_t rawData = readFIFO();  
 	
-	//printf("rawIR %f \n",(float)rawData.rawIR);
+	printf("rawIR %f \n",(float)rawData.rawIR);
 	//printf("rawRed %f \n",(float)rawData.rawRed);
 	
 	dcFilterIR = dcRemoval( (float)rawData.rawIR, dcFilterIR.w, ALPHA );
@@ -148,7 +148,7 @@ bool MAX30100::detectPulse(float sensor_value)
 	static uint32_t currentBeat = 0;
 	static uint32_t lastBeat = 0;
 	
-	//printf("sensor value %f \n",sensor_value);
+	printf("sensor value %f \n",sensor_value);
 	
 	if(sensor_value > PULSE_MAX_THRESHOLD)
 	{
@@ -161,7 +161,7 @@ bool MAX30100::detectPulse(float sensor_value)
 		return false;
 	}
 	
-	//printf("state : %u \n",currentPulseDetectorState);
+	printf("state : %u \n",currentPulseDetectorState);
 	
 	switch(currentPulseDetectorState)
 	{
