@@ -185,8 +185,10 @@ bool MAX30100::detectPulse(float sensor_value)
 				if(debug == true) 
 				{
 					printf("Peak reached: ");
+					//printf("%u \n",sensor_value);
 					printf("%f \n",sensor_value);
 					printf(" ");
+					//printf("%u \n",sensor_value);
 					printf("%f \n",prev_sensor_value);
 				}
 				
