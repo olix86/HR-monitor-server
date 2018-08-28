@@ -161,7 +161,7 @@ bool MAX30100::detectPulse(float sensor_value)
 		return false;
 	}
 	
-	printf("sensor value %f \n",sensor_value);
+	//printf("sensor value %f \n",sensor_value);
 	printf("state : %u \n",currentPulseDetectorState);
 	
 	switch(currentPulseDetectorState)
@@ -185,13 +185,15 @@ bool MAX30100::detectPulse(float sensor_value)
 				if(debug == true) 
 				{
 					printf("Peak reached: ");
-					printf("%u \n",sensor_value);
+					printf("%f \n",sensor_value);
 					printf(" ");
-					printf("%u \n",prev_sensor_value);
+					printf("%f \n",prev_sensor_value);
 				}
 				
 				uint32_t beatDuration = currentBeat - lastBeat;
 				lastBeat = currentBeat;
+				
+				printf("%u \n",beatDuration);
 				
 				float rawBPM = 0;
 				if(beatDuration > 0)
