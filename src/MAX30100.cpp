@@ -203,6 +203,7 @@ bool MAX30100::detectPulse(float sensor_value)
 				
 				
 				uint32_t beatDuration = currentBeat - lastBeat;
+				printf("beatDuration: %u \n",beatDuration);
 				
 				if(beatDuration > 250)
 				{
