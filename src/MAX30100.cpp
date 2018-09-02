@@ -183,7 +183,7 @@ bool MAX30100::detectPulse(float sensor_value)
 			if(sensor_value > prev_sensor_value)
 			{
 				currentBeat = millis();
-				printf("millis: %u \n",lastBeat);
+				//printf("millis: %u \n",lastBeat);
 				lastBeatThreshold = sensor_value;
 			}
 			else
@@ -200,8 +200,8 @@ bool MAX30100::detectPulse(float sensor_value)
 				}
 				
 				uint32_t beatDuration = currentBeat - lastBeat;
-				printf("currentBeat: %f \n",currentBeat);
-				printf("lastBeat: %f \n",lastBeat);
+				printf("currentBeat: %u \n",currentBeat);
+				printf("lastBeat: %u \n",lastBeat);
 				
 				
 				lastBeat = currentBeat;
