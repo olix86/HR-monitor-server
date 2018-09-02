@@ -230,7 +230,7 @@ bool MAX30100::detectPulse(float sensor_value)
 						printf("beatDuration: %u \n",beatDuration);
 						printf("rawBPM %f \n",rawBPM);
 					}
-						
+					
 					//This method sometimes glitches, it's better to go through whole moving average everytime
 					//IT's a neat idea to optimize the amount of work for moving avg. but while placing, removing finger it can screw up
 					//valuesBPMSum -= valuesBPM[bpmIndex];
@@ -275,10 +275,10 @@ bool MAX30100::detectPulse(float sensor_value)
 					return true;
 				}
 				/*else
-				{
-					return false;
-					
-				}*/
+				*				{
+				*					return false;
+				*					
+			}*/
 			}
 			break;
 			
@@ -400,7 +400,7 @@ uint8_t MAX30100::readRegister(uint8_t address)
 	}
 	else
 	{
-// 		//printf("Data read: %u \n", val);
+		// 		//printf("Data read: %u \n", val);
 	}
 	close(file_i2c);
 	return val;
@@ -427,11 +427,11 @@ void MAX30100::readFrom(byte address, int length, byte _buff[])
 	}
 	
 	//printf("readFrom: ");
-		i2c_smbus_read_i2c_block_data(file_i2c, address, length, _buff);
-		for(int i=0; i<length; i++)
+	i2c_smbus_read_i2c_block_data(file_i2c, address, length, _buff);
+	for(int i=0; i<length; i++)
 	{
 		//_buff[i] = i2c_smbus_read_byte_data(file_i2c, address );//+ i);
-	
+		
 		if (_buff[i] < 0)		
 		{
 			//ERROR HANDLING: i2c transaction failed

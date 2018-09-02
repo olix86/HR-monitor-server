@@ -12,6 +12,7 @@
 #include <string.h>
 #include <math.h>
 #include <time.h>
+#include <file.h>
 
 #include <unistd.h>
 #include <fcntl.h>				//Needed for I2C port
