@@ -100,7 +100,7 @@ pulseoxymeter_t MAX30100::update()
 	
 	lowPassButterworthFilter( meanDiffResIR/*-dcFilterIR.result*/, &lpbFilterIR );
 	
-	printf("butter %f \n",lpbFilterIR);
+	printf("butter %f \n",lpbFilterIR.result);
 	
 	irACValueSqSum += dcFilterIR.result * dcFilterIR.result;
 	redACValueSqSum += dcFilterRed.result * dcFilterRed.result;
