@@ -264,7 +264,7 @@ bool MAX30100::detectPulse(float sensor_value)
 				}
 				else
 				{
-					return false
+					return false;
 					
 				}
 			}
