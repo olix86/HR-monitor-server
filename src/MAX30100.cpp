@@ -152,6 +152,7 @@ bool MAX30100::detectPulse(float sensor_value)
 	static uint8_t values_went_down = 0;
 	static uint32_t currentBeat = 0;
 	static uint32_t lastBeat = 0;
+	static uint32_t hasPeaked = 0;
 	
 	printf("sensor value %f \n",sensor_value);
 	
@@ -202,61 +203,70 @@ bool MAX30100::detectPulse(float sensor_value)
 				
 				
 				uint32_t beatDuration = currentBeat - lastBeat;
-				printf("currentBeat: %u \n",currentBeat);
-				printf("lastBeat: %u \n",lastBeat);
-				printf("beatDuration: %u \n",beatDuration);
 				
-				lastBeat = currentBeat;
-				
-				
-				float rawBPM = 0;
-				if(beatDuration > 0)
-					rawBPM = 60000.0 / (float)beatDuration;
-				if(debug == true) 
-					printf("%u \n",rawBPM);
-				
-				//This method sometimes glitches, it's better to go through whole moving average everytime
-				//IT's a neat idea to optimize the amount of work for moving avg. but while placing, removing finger it can screw up
-				//valuesBPMSum -= valuesBPM[bpmIndex];
-				//valuesBPM[bpmIndex] = rawBPM;
-				//valuesBPMSum += valuesBPM[bpmIndex];
-				
-				valuesBPM[bpmIndex] = rawBPM;
-				valuesBPMSum = 0;
-				for(int i=0; i<PULSE_BPM_SAMPLE_SIZE; i++)
+				if(beatDuration > 250)
 				{
-					valuesBPMSum += valuesBPM[i];
-				}
-				
-				if(debug == true) 
-				{
-					printf("CurrentMoving Avg: ");
+					printf("currentBeat: %u \n",currentBeat);
+					printf("lastBeat: %u \n",lastBeat);
+					printf("beatDuration: %u \n",beatDuration);
+					
+					lastBeat = currentBeat;
+					
+					
+					float rawBPM = 0;
+					if(beatDuration > 0)
+						rawBPM = 60000.0 / (float)beatDuration;
+					if(debug == true) 
+						printf("%u \n",rawBPM);
+					
+					//This method sometimes glitches, it's better to go through whole moving average everytime
+					//IT's a neat idea to optimize the amount of work for moving avg. but while placing, removing finger it can screw up
+					//valuesBPMSum -= valuesBPM[bpmIndex];
+					//valuesBPM[bpmIndex] = rawBPM;
+					//valuesBPMSum += valuesBPM[bpmIndex];
+					
+					valuesBPM[bpmIndex] = rawBPM;
+					valuesBPMSum = 0;
 					for(int i=0; i<PULSE_BPM_SAMPLE_SIZE; i++)
 					{
-						printf("%u",(valuesBPM[i]));
-						printf(" ");
+						valuesBPMSum += valuesBPM[i];
 					}
 					
-					printf("\n");
+					if(debug == true) 
+					{
+						printf("CurrentMoving Avg: ");
+						for(int i=0; i<PULSE_BPM_SAMPLE_SIZE; i++)
+						{
+							printf("%u",(valuesBPM[i]));
+							printf(" ");
+						}
+						
+						printf("\n");
+					}
+					
+					bpmIndex++;
+					bpmIndex = bpmIndex % PULSE_BPM_SAMPLE_SIZE;
+					
+					if(valuesBPMCount < PULSE_BPM_SAMPLE_SIZE)
+						valuesBPMCount++;
+					
+					currentBPM = valuesBPMSum / valuesBPMCount;
+					if(debug == true) 
+					{
+						printf("AVg. BPM: ");
+						printf("%u \n",(currentBPM));
+					}
+					
+					
+					currentPulseDetectorState = PULSE_TRACE_DOWN;
+					
+					return true;
 				}
-				
-				bpmIndex++;
-				bpmIndex = bpmIndex % PULSE_BPM_SAMPLE_SIZE;
-				
-				if(valuesBPMCount < PULSE_BPM_SAMPLE_SIZE)
-					valuesBPMCount++;
-				
-				currentBPM = valuesBPMSum / valuesBPMCount;
-				if(debug == true) 
+				else
 				{
-					printf("AVg. BPM: ");
-					printf("%u \n",(currentBPM));
+					return false
+					
 				}
-				
-				
-				currentPulseDetectorState = PULSE_TRACE_DOWN;
-				
-				return true;
 			}
 			break;
 			
