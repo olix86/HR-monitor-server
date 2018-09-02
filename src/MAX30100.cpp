@@ -229,7 +229,7 @@ bool MAX30100::detectPulse(float sensor_value)
 						
 					}
 					if(debug == true) 
-						printf("rawBPM %u \n",rawBPM);
+						printf("rawBPM %f \n",rawBPM);
 					
 					//This method sometimes glitches, it's better to go through whole moving average everytime
 					//IT's a neat idea to optimize the amount of work for moving avg. but while placing, removing finger it can screw up
