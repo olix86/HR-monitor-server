@@ -249,7 +249,7 @@ bool MAX30100::detectPulse(float sensor_value)
 						printf("CurrentMoving Avg: ");
 						for(int i=0; i<PULSE_BPM_SAMPLE_SIZE; i++)
 						{
-							printf("%u",(valuesBPM[i]));
+							printf("%f",(valuesBPM[i]));
 							printf(" ");
 						}
 						
