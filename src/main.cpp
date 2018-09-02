@@ -36,7 +36,7 @@ int main(){
 				printf("Error opening file!\n");
 				exit(1);
 			}
-			fprintf(f,%f\n", result.heartBPM);
+			fprintf(f,"%f\n", result.heartBPM);
 			fclose(f);
 			
 		}
