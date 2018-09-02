@@ -116,7 +116,7 @@ pulseoxymeter_t MAX30100::update()
 		if( debug == true )
 		{
 			printf("RMS Ratio: ");
-			printf("%u \n",ratioRMS);
+			printf("%f \n",ratioRMS);
 		}
 		
 		//This is my adjusted standard model, so it shows 0.89 as 94% saturation. It is probably far from correct, requires proper empircal calibration	
@@ -266,7 +266,7 @@ bool MAX30100::detectPulse(float sensor_value)
 					if(debug == true) 
 					{
 						printf("AVg. BPM: ");
-						printf("%u \n",(currentBPM));
+						printf("%f \n",(currentBPM));
 					}
 					
 					
