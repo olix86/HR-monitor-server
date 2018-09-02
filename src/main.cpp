@@ -40,7 +40,7 @@ int main(){
 			
 			
 		}
-		sleep(1);
+		usleep(100*1000);
 		//i--;
 	}
 	//pulseOxymeter->printRegisters();
