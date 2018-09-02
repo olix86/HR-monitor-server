@@ -14,8 +14,8 @@ int main(){
 	
 	printf("begin \n");
 	//You have to call update with frequency at least 37Hz. But the closer you call it to 100Hz the better, the filter will work.
-	int i = 5;
-	while(i > 0)
+	//int i = 5;
+	while(1)
 	{
 		pulseoxymeter_t result = pulseOxymeter->update();
 		
@@ -26,12 +26,12 @@ int main(){
 			//printf("BEAT \n");
 			
 			printf( "BPM: " );
-			printf("%f", result.heartBPM );
+			printf("%f \n", result.heartBPM );
 			/*printf( " | " );
 			
 			printf( "SaO2: " );
 			printf("%f", result.SaO2 ); */
-			printf( "% \n" );
+			//printf( "% \n" );
 		}
 		else
 		{
@@ -40,6 +40,7 @@ int main(){
 			
 			
 		}
+		//takes microseconds
 		usleep(10*1000);
 		//i--;
 	}
