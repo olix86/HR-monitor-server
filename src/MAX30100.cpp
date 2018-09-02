@@ -219,14 +219,11 @@ bool MAX30100::detectPulse(float sensor_value)
 					float rawBPM = 0;
 					if(beatDuration > 0)
 					{
-						printf("ok");
 						rawBPM = 60000.0 / (float)beatDuration;
-						//rawBPM = 
 					}
 					else
 					{
-						printf("error");
-						
+						//printf("error");	
 					}
 					if(debug == true) 
 					{

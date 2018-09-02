@@ -23,14 +23,14 @@ int main(){
 		
 		if( result.pulseDetected == true )
 		{
-			printf("BEAT \n");
+			//printf("BEAT \n");
 			
 			printf( "BPM: " );
 			printf("%f", result.heartBPM );
-			printf( " | " );
+			/*printf( " | " );
 			
 			printf( "SaO2: " );
-			printf("%f", result.SaO2 );
+			printf("%f", result.SaO2 ); */
 			printf( "% \n" );
 		}
 		else
