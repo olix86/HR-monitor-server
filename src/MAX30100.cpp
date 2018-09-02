@@ -403,7 +403,7 @@ uint8_t MAX30100::readRegister(uint8_t address)
 	}
 	else
 	{
-		printf("Data read: %u \n", val);
+// 		//printf("Data read: %u \n", val);
 	}
 	close(file_i2c);
 	return val;
