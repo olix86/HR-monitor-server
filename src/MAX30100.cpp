@@ -86,21 +86,21 @@ pulseoxymeter_t MAX30100::update()
 	
 	fifo_t rawData = readFIFO();  
 	
-	printf("rawIR %f \n",(float)rawData.rawIR);
+	//printf("rawIR %f \n",(float)rawData.rawIR);
 	//printf("rawRed %f \n",(float)rawData.rawRed);
 	
 	dcFilterIR = dcRemoval( (float)rawData.rawIR, dcFilterIR.w, ALPHA );
 	dcFilterRed = dcRemoval( (float)rawData.rawRed, dcFilterRed.w, ALPHA );
 	
-	printf("dcIR %f \n",dcFilterIR.result);
+	//printf("dcIR %f \n",dcFilterIR.result);
 	
 	float meanDiffResIR = meanDiff( dcFilterIR.result, &meanDiffIR);
 	
-	printf("meanDiff %f \n",meanDiffResIR);
+	//printf("meanDiff %f \n",meanDiffResIR);
 	
 	lowPassButterworthFilter( meanDiffResIR/*-dcFilterIR.result*/, &lpbFilterIR );
 	
-	printf("butter %f \n",lpbFilterIR.result);
+	//printf("butter %f \n",lpbFilterIR.result);
 	
 	irACValueSqSum += dcFilterIR.result * dcFilterIR.result;
 	redACValueSqSum += dcFilterRed.result * dcFilterRed.result;
@@ -154,8 +154,8 @@ bool MAX30100::detectPulse(float sensor_value)
 	static uint32_t lastBeat = 0;
 	static uint32_t hasPeaked = 0;
 	
-	printf("sensor value %f \n",sensor_value);
-	printf("millis: %u \n",millis());
+	//printf("sensor value %f \n",sensor_value);
+	//printf("millis: %u \n",millis());
 	
 	if(sensor_value > PULSE_MAX_THRESHOLD)
 	{
@@ -170,7 +170,7 @@ bool MAX30100::detectPulse(float sensor_value)
 	}
 	
 	//printf("sensor value %f \n",sensor_value);
-	printf("state : %u \n",currentPulseDetectorState);
+	//printf("state : %u \n",currentPulseDetectorState);
 	
 	switch(currentPulseDetectorState)
 	{
@@ -209,9 +209,9 @@ bool MAX30100::detectPulse(float sensor_value)
 				
 				//if(true || beatDuration > 250)
 				{
-					printf("currentBeat: %u \n",currentBeat);
-					printf("lastBeat: %u \n",lastBeat);
-					printf("beatDuration: %u \n",beatDuration);
+					//printf("currentBeat: %u \n",currentBeat);
+					//printf("lastBeat: %u \n",lastBeat);
+					//printf("beatDuration: %u \n",beatDuration);
 					
 					lastBeat = currentBeat;
 					
@@ -229,8 +229,11 @@ bool MAX30100::detectPulse(float sensor_value)
 						
 					}
 					if(debug == true) 
+					{
+						printf("beatDuration: %u \n",beatDuration);
 						printf("rawBPM %f \n",rawBPM);
-					
+					}
+						
 					//This method sometimes glitches, it's better to go through whole moving average everytime
 					//IT's a neat idea to optimize the amount of work for moving avg. but while placing, removing finger it can screw up
 					//valuesBPMSum -= valuesBPM[bpmIndex];
