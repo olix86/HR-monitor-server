@@ -4,15 +4,17 @@
 #define MAX30100_H
 
 #include <stdlib.h>
+#include <stdio.h>
+
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdarg.h>
-#include <stdio.h>
+
 #include <string.h>
 #include <math.h>
 #include <time.h>
-#include <file.h>
+
 
 #include <unistd.h>
 #include <fcntl.h>				//Needed for I2C port
