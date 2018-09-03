@@ -17,10 +17,16 @@ int main(){
 		pulseoxymeter_t result = pulseOxymeter->update();
 		//printf("update \n");
 		
+		FILE *f = fopen("HB.txt", "w");
+		if (f == NULL)
+		{
+			printf("Error opening file!\n");
+			exit(1);
+		}
+			
 		if( result.pulseDetected == true )
 		{
 			//printf("BEAT \n");
-			
 			printf( "BPM: " );
 			printf("%f \n", result.heartBPM );
 			/*printf( " | " );
@@ -29,23 +35,17 @@ int main(){
 			 *			printf("%f", result.SaO2 ); */
 			//printf( "% \n" );
 			
-			
-			FILE *f = fopen("HB.txt", "w");
-			if (f == NULL)
-			{
-				printf("Error opening file!\n");
-				exit(1);
-			}
 			fprintf(f,"%f\n", result.heartBPM);
-			fclose(f);
-			
 		}
 		else
 		{
 			//printf("no pulse detected \n");  
+			fprintf(f,"0\n");
 			
 		}
-		//takes microseconds
+		
+		fclose(f);
+		//takes microseconds as arg
 		usleep(10*1000);
 		//i--;
 	}
