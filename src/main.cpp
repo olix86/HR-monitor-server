@@ -27,7 +27,7 @@ void readAccelero() {
     //accelgyro.getRotation(&gx, &gy, &gz);
 
     // display accel/gyro x/y/z values
-    printf("a/g: %6hd %6hd %6hd   %6hd %6hd %6hd\n",ax,ay,az,gx,gy,gz);
+    printf("a/g: %6hd %6hd %6hd   %6hd %6hd %6hd\n",ax/2,ay/2,az/2,gx,gy,gz);
 }
 
 
