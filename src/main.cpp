@@ -41,6 +41,9 @@ int main(){
 	//pulseOxymeter = new MAX30100();
 	
 	printf("begin \n");
+	
+	setupAccelero();
+	
 	//You have to call update with frequency at least 37Hz. But the closer you call it to 100Hz the better, the filter will work.
 	//int i = 5;
 	while(1)
@@ -76,6 +79,8 @@ int main(){
 		}
 		
 		fclose(f);
+		
+		readAccelero();
 		//takes microseconds as arg
 		usleep(10*1000);
 		//i--;
