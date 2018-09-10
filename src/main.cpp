@@ -7,7 +7,7 @@ MPU6050 accelgyro;
 
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
-enum States (wait, freefall, impact, rest);
+enum States {wait, freefall, impact, rest};
 
 void setupAccelero() {
 	// initialize device
