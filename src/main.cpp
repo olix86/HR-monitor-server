@@ -89,7 +89,7 @@ States fsm()
 			state = wait;
 			waitImpact = 0;
 		}
-		else:
+		else
 		{
 			waitImpact = waitImpact + 1;
 			state = freefall;
