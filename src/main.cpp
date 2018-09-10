@@ -45,6 +45,8 @@ States fsm()
 	static float waitImpact = 0;
 	static float waitRest = 0;
 	static float restCounter = 0;
+	double a[3];
+	static double norm = 0;
 	// read raw accel/gyro measurements from device
 	accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
 	
@@ -53,11 +55,18 @@ States fsm()
 	//accelgyro.getRotation(&gx, &gy, &gz);
 	
 	// display accel/gyro x/y/z values
-	double scaling_factor = 16384;
+	constant double scaling_factor = 16384;
+	a[0] = (double)ax/=scaling_factor;
+	a[1] = (double)ay/=scaling_factor;
+	a[2] = (double)az/=scaling_factor;
+	
 	//printf("a/g: %6hd %6hd %6hd   %6hd %6hd %6hd\n",(double)ax,(double)ay,(double)az,gx,gy,gz);
 	printf("a/g: %f %f %f   %6hd %6hd %6hd\n",(double)ax/scaling_factor,(double)ay/scaling_factor,(double)az/scaling_factor,gx,gy,gz);
 	printf("%d \n", state);
 	
+	
+	
+	norm = sqrt(a[0]*a[0] + a[1]*a[1] + a[2]*a[2])
 	if (state == wait)
 	{	if(norm <(0.5*g))
 		{
