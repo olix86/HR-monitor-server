@@ -66,7 +66,7 @@ States fsm()
 	
 	
 	
-	norm = sqrt(a[0]*a[0] + a[1]*a[1] + a[2]*a[2])
+	norm = sqrt(a[0]*a[0] + a[1]*a[1] + a[2]*a[2]);
 	if (state == wait)
 	{	if(norm <(0.5*g))
 		{
