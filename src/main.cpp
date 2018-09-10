@@ -35,7 +35,7 @@ void readAccelero() {
 
 States fsm()
 {
-	static float g=9.81;
+	static float g=1;//9.81;
 	static float T = 0.01;
 	static float maxFallTime = 1.0;
 	static float maxImpactTime = 1.0;
