@@ -61,47 +61,47 @@ States fsm()
 	if (state == wait)
 	{	if(norm <(0.5*g))
 		{
-			state = freefall
+			state = freefall;
 		}
 		else
 		{
-			state = wait
+			state = wait;
 		}
 	}
 	else if(state == freefall)
 	{	
 		if(norm >(3.0*g))
 		{
-			state = impact
-			waitImpact = 0
+			state = impact;
+			waitImpact = 0;
 		}
 		else if(waitImpact > maxFallTime/T)
 		{
-			state = wait
-			waitImpact = 0
+			state = wait;
+			waitImpact = 0;
 		}
 		else:
 		{
-			waitImpact = waitImpact + 1
-			state = freefall
+			waitImpact = waitImpact + 1;
+			state = freefall;
 		}
 	}
 	else if(state == impact)
 	{
 		if(norm < (1.5*g))
 		{
-			state = rest
-			waitRest = 0
+			state = rest;
+			waitRest = 0;
 		}
 		else if(waitRest > maxImpactTime/T)
 		{
-			state = wait
-			waitRest = 0
+			state = wait;
+			waitRest = 0;
 		}
 		else
 		{
-			waitRest = waitRest + 1
-			state = impact
+			waitRest = waitRest + 1;
+			state = impact;
 		}
 	}
 	//State rest
@@ -109,13 +109,13 @@ States fsm()
 	{
 		if(restCounter > maxRestTime/T)
 		{
-			state = wait
-			restCounter = 0
+			state = wait;
+			restCounter = 0;
 		}
 		else
 		{
-			state = rest
-			restCounter = restCounter + 1
+			state = rest;
+			restCounter = restCounter + 1;
 		}
 	}
 	
