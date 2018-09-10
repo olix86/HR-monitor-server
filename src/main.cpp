@@ -55,7 +55,7 @@ States fsm()
 	//accelgyro.getRotation(&gx, &gy, &gz);
 	
 	// display accel/gyro x/y/z values
-	constant double scaling_factor = 16384;
+	const double scaling_factor = 16384;
 	a[0] = (double)ax/=scaling_factor;
 	a[1] = (double)ay/=scaling_factor;
 	a[2] = (double)az/=scaling_factor;
