@@ -61,23 +61,23 @@ States fsm()
 	if (state == wait)
 	{	if(norm <(0.5*g))
 		{
-			state = states.freefall
+			state = freefall
 		}
 		else
 		{
-			state = states.wait
+			state = wait
 		}
 	}
 	else if(state == freefall)
 	{	
 		if(norm >(3.0*g))
 		{
-			state = states.impact
+			state = impact
 			waitImpact = 0
 		}
 		else if(waitImpact > maxFallTime/T)
 		{
-			state = states.wait
+			state = wait
 			waitImpact = 0
 		}
 		else:
@@ -90,18 +90,18 @@ States fsm()
 	{
 		if(norm < (1.5*g))
 		{
-			state = states.rest
+			state = rest
 			waitRest = 0
 		}
 		else if(waitRest > maxImpactTime/T)
 		{
-			state = states.wait
+			state = wait
 			waitRest = 0
 		}
 		else
 		{
 			waitRest = waitRest + 1
-			state = states.impact
+			state = impact
 		}
 	}
 	//State rest
@@ -114,7 +114,7 @@ States fsm()
 		}
 		else
 		{
-			state = states.rest
+			state = rest
 			restCounter = restCounter + 1
 		}
 	}
