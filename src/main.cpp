@@ -27,7 +27,7 @@ void readAccelero() {
     //accelgyro.getRotation(&gx, &gy, &gz);
 
     // display accel/gyro x/y/z values
-	double scaling_factor = 8192;
+	double scaling_factor = 16384;
     //printf("a/g: %6hd %6hd %6hd   %6hd %6hd %6hd\n",(double)ax,(double)ay,(double)az,gx,gy,gz);
 	printf("a/g: %f %f %f   %6hd %6hd %6hd\n",(double)ax/scaling_factor,(double)ay/scaling_factor,(double)az/scaling_factor,gx,gy,gz);
 }
