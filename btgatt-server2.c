@@ -302,7 +302,7 @@ static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
 	uint8_t value[2];
 
 	value[0] = server->fall_enabled ? 0x01 : 0x00;
-	value[1] = 0x00;
+	value[1] = 0x05;
 
 	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
 }
