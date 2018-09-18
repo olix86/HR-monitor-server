@@ -547,7 +547,7 @@ static void populate_hr_service(struct server *server)
 
 	
 	/* Fall state Characteristic */
-	bt_uuid16_create(&uuid, UUID_CUSTOM_VALUE_CHAR);
+	bt_uuid16_create(&uuid, UUID_CUSTOM);
 	fsm_state = gatt_db_service_add_characteristic(service, &uuid,
 						BT_ATT_PERM_NONE,
 						BT_GATT_CHRC_PROP_NOTIFY,
