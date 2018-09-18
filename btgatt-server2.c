@@ -104,6 +104,9 @@ struct server {
 	
 	uint16_t hr_energy_expended;
 	bool hr_visible;
+	
+	bool fall_enabled;
+	
 	bool hr_msrmt_enabled;
 	int hr_ee_count;
 	unsigned int hr_timeout_id;
@@ -284,6 +287,60 @@ done:
 	gatt_db_attribute_write_result(attrib, id, ecode);
 }
 
+static void test_ccc_read_cb(struct gatt_db_attribute *attrib,
+					unsigned int id, uint16_t offset,
+					uint8_t opcode, struct bt_att *att,
+					void *user_data)
+{
+	struct server *server = user_data;
+	uint8_t value[2];
+
+	value[0] = server->fall_enabled ? 0x01 : 0x00;
+	value[1] = 0x00;
+
+	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
+}
+
+static void test_ccc_write_cb(struct gatt_db_attribute *attrib,
+					unsigned int id, uint16_t offset,
+					const uint8_t *value, size_t len,
+					uint8_t opcode, struct bt_att *att,
+					void *user_data)
+{
+	struct server *server = user_data;
+	uint8_t ecode = 0;
+
+	if (!value || len != 2) {
+		ecode = BT_ATT_ERROR_INVALID_ATTRIBUTE_VALUE_LEN;
+		goto done;
+	}
+
+	if (offset) {
+		ecode = BT_ATT_ERROR_INVALID_OFFSET;
+		goto done;
+	}
+
+	if (value[0] == 0x00)
+		server->fall_enabled = false;
+	else if (value[0] == 0x01) {
+		if (server->fall_enabled) {
+			PRLOG("Fall Measurement Already Enabled\n");
+			goto done;
+		}
+
+		server->fall_enabled = true;
+	} else
+		ecode = 0x80;
+
+	PRLOG("Fall: Measurement Enabled: %s\n",
+				server->fall_enabled ? "true" : "false");
+
+	//update_hr_msrmt_simulation(server);
+
+done:
+	gatt_db_attribute_write_result(attrib, id, ecode);
+}
+
 static void hr_msrmt_ccc_read_cb(struct gatt_db_attribute *attrib,
 					unsigned int id, uint16_t offset,
 					uint8_t opcode, struct bt_att *att,
@@ -316,7 +373,7 @@ static bool hr_msrmt_cb(void *user_data)
 		exit(1);
 	}
 		fscanf(f,"%f %d", &HB, &state);
-		//fscanf(f,"%d", );
+		//	fscanf(f,"%d", );
 		fclose(f);
 
 	pdu[1] = (int)HB;//90 + (rand() % 40);
