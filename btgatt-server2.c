@@ -315,8 +315,8 @@ static bool hr_msrmt_cb(void *user_data)
 		printf("Error opening file!\n");
 		exit(1);
 	}
-		fscanf(f,"%f", &HB);
-		fscanf(f,"%d", &state);
+		fscanf(f,"%f %d", &HB, &state);
+		//fscanf(f,"%d", );
 		fclose(f);
 
 	pdu[1] = (int)HB;//90 + (rand() % 40);
