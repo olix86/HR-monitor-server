@@ -310,13 +310,15 @@ static void test_ccc_write_cb(struct gatt_db_attribute *attrib,
 	struct server *server = user_data;
 	uint8_t ecode = 0;
 
-	if (!value || len != 2) {
+	if (!value || len != 1) {
 		ecode = BT_ATT_ERROR_INVALID_ATTRIBUTE_VALUE_LEN;
+		printf("test \n");
 		goto done;
 	}
 
 	if (offset) {
 		ecode = BT_ATT_ERROR_INVALID_OFFSET;
+		printf("test2 \n");
 		goto done;
 	}
 
