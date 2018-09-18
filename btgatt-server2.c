@@ -85,6 +85,11 @@ static uint128_t UUID_TEST = {
 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA }
 };
 
+static uint128_t UUID_TEST_CARA = {
+.data = {   0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA,
+0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA }
+};
+
 struct server {
 	int fd;
 	struct bt_att *att;
@@ -580,7 +585,7 @@ static void populate_test_service(struct server *server)
 	service = gatt_db_add_service(server->db, &uuid, true, 10);
 	
 	/* Fall state Characteristic */
-	bt_uuid16_create(&uuid, UUID_CUSTOM_VALUE_CHAR);
+	bt_uuid128_create(&uuid, UUID_TEST_CARA);
 	fall_state = gatt_db_service_add_characteristic(service, &uuid,
 						BT_ATT_PERM_NONE,
 						BT_GATT_CHRC_PROP_NOTIFY,
