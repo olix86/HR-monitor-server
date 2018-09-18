@@ -292,6 +292,7 @@ static void test_ccc_read_cb(struct gatt_db_attribute *attrib,
 					uint8_t opcode, struct bt_att *att,
 					void *user_data)
 {
+	printf("test r\n");
 	struct server *server = user_data;
 	uint8_t value[2];
 
@@ -307,18 +308,19 @@ static void test_ccc_write_cb(struct gatt_db_attribute *attrib,
 					uint8_t opcode, struct bt_att *att,
 					void *user_data)
 {
+	printf("test w\n");
 	struct server *server = user_data;
 	uint8_t ecode = 0;
 
 	if (!value || len != 2) {
 		ecode = BT_ATT_ERROR_INVALID_ATTRIBUTE_VALUE_LEN;
-		printf("test \n");
+		
 		goto done;
 	}
 
 	if (offset) {
 		ecode = BT_ATT_ERROR_INVALID_OFFSET;
-		printf("test2 \n");
+		
 		goto done;
 	}
 
@@ -368,7 +370,7 @@ static bool hr_msrmt_cb(void *user_data)
 	pdu[0] = 0x06;
 	FILE *f = fopen("/home/olivier/HR-monitor-server/HB.txt", "r");
 	float HB = 0;
-	uint16_t state = 0;
+	uint8_t state = 0;
 	if (f == NULL)
 	{
 		printf("Error opening file!\n");
