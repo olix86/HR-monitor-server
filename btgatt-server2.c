@@ -310,7 +310,7 @@ static void test_ccc_write_cb(struct gatt_db_attribute *attrib,
 	struct server *server = user_data;
 	uint8_t ecode = 0;
 
-	if (!value || len != 1) {
+	if (!value || len != 2) {
 		ecode = BT_ATT_ERROR_INVALID_ATTRIBUTE_VALUE_LEN;
 		printf("test \n");
 		goto done;
@@ -392,7 +392,7 @@ static bool hr_msrmt_cb(void *user_data)
 
 	bt_gatt_server_send_notification(server->gatt,
 						server->fall_state_handle,
-						&state, 1);
+						&state, 2);
 
 	
 	cur_ee = server->hr_energy_expended;
