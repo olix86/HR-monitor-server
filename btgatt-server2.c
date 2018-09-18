@@ -368,7 +368,7 @@ static bool hr_msrmt_cb(void *user_data)
 	pdu[0] = 0x06;
 	FILE *f = fopen("/home/olivier/HR-monitor-server/HB.txt", "r");
 	float HB = 0;
-	uint8_t state = 0;
+	uint16_t state = 0;
 	if (f == NULL)
 	{
 		printf("Error opening file!\n");
@@ -392,7 +392,7 @@ static bool hr_msrmt_cb(void *user_data)
 
 	bt_gatt_server_send_notification(server->gatt,
 						server->fall_state_handle,
-						&state, 2);
+						&state, 1);
 
 	
 	cur_ee = server->hr_energy_expended;
