@@ -44,14 +44,14 @@
 #include "src/shared/gatt-db.h"
 #include "src/shared/gatt-server.h"
 
+#define UUID_TEST			0xEE18DA5ACE6F447190988443E8F4F339
+
 #define UUID_GAP			0x1800
 #define UUID_GATT			0x1801
 #define UUID_HEART_RATE			0x180d
 #define UUID_HEART_RATE_MSRMT		0x2a37
 #define UUID_HEART_RATE_BODY		0x2a38
 #define UUID_HEART_RATE_CTRL		0x2a39
-
-#define UUID_CUSTOM_VALUE_CHAR      0x1401
 
 #define ATT_CID 4
 
@@ -92,7 +92,6 @@ struct server {
 
 	uint16_t hr_handle;
 	uint16_t hr_msrmt_handle;
-	uint16_t fall_state_handle;
 	uint16_t hr_energy_expended;
 	bool hr_visible;
 	bool hr_msrmt_enabled;
@@ -298,19 +297,7 @@ static bool hr_msrmt_cb(void *user_data)
 	uint32_t cur_ee;
 
 	pdu[0] = 0x06;
-	FILE *f = fopen("/home/olivier/HR-monitor-server/HB.txt", "r");
-	float HB = 0;
-	uint8_t state = 0;
-	if (f == NULL)
-	{
-		printf("Error opening file!\n");
-		exit(1);
-	}
-		fscanf(f,"%f", &HB);
-		fscanf(f,"%d", &state);
-		fclose(f);
-
-	pdu[1] = (int)HB;//90 + (rand() % 40);
+	pdu[1] = 90 + (rand() % 40);
 
 	if (expended_present) {
 		pdu[0] |= 0x08;
@@ -322,11 +309,7 @@ static bool hr_msrmt_cb(void *user_data)
 						server->hr_msrmt_handle,
 						pdu, len);
 
-	bt_gatt_server_send_notification(server->gatt,
-						server->fall_state_handle,
-						&state, 1);
 
-	
 	cur_ee = server->hr_energy_expended;
 	server->hr_energy_expended = MIN(UINT16_MAX, cur_ee + 10);
 	server->hr_ee_count++;
@@ -500,10 +483,23 @@ static void populate_gatt_service(struct server *server)
 	gatt_db_service_set_active(service, true);
 }
 
+static void populate_test_service(struct server *server)
+{
+	bt_uuid_t uuid;
+	struct gatt_db_attribute *service;
+
+	/* Add the TEST service */
+	bt_uuid128_create(&uuid, UUID_TEST);
+	service = gatt_db_add_service(server->db, &uuid, true, 4);
+
+	gatt_db_service_set_active(service, true);
+}
+
+
 static void populate_hr_service(struct server *server)
 {
 	bt_uuid_t uuid;
-	struct gatt_db_attribute *service, *hr_msrmt, *body, *fsm_state;
+	struct gatt_db_attribute *service, *hr_msrmt, *body;
 	uint8_t body_loc = 1;  /* "Chest" */
 
 	/* Add Heart Rate Service */
@@ -547,17 +543,6 @@ static void populate_hr_service(struct server *server)
 						NULL, hr_control_point_write_cb,
 						server);
 
-	/* Fall state Characteristic */
-	bt_uuid16_create(&uuid, UUID_CUSTOM_VALUE_CHAR);
-	fsm_state = gatt_db_service_add_characteristic(service, &uuid,
-						BT_ATT_PERM_NONE,
-						BT_GATT_CHRC_PROP_NOTIFY,
-						NULL, NULL, NULL);
-	
-	server->fall_state_handle = gatt_db_attribute_get_handle(fsm_state);
-	
-	printf("%d \n", server->fall_state_handle);
-	
 	if (server->hr_visible)
 		gatt_db_service_set_active(service, true);
 }
@@ -567,6 +552,7 @@ static void populate_db(struct server *server)
 	populate_gap_service(server);
 	populate_gatt_service(server);
 	populate_hr_service(server);
+	populate_test_service(server);
 }
 
 static struct server *server_create(int fd, uint16_t mtu, bool hr_visible)
