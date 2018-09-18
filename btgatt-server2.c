@@ -553,7 +553,10 @@ static void populate_hr_service(struct server *server)
 						BT_ATT_PERM_NONE,
 						BT_GATT_CHRC_PROP_NOTIFY,
 						NULL, NULL, NULL);
+	
 	server->fall_state_handle = gatt_db_attribute_get_handle(fsm_state);
+	
+	printf("%d \n", fall_state_handle);
 	
 	if (server->hr_visible)
 		gatt_db_service_set_active(service, true);
