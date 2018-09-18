@@ -44,7 +44,7 @@
 #include "src/shared/gatt-db.h"
 #include "src/shared/gatt-server.h"
 
-#define UUID_TEST			0xEE18DA5ACE6F447190988443E8F4F339
+
 
 #define UUID_GAP			0x1800
 #define UUID_GATT			0x1801
@@ -77,6 +77,11 @@
 static const char test_device_name[] = "Very Long Test Device Name For Testing "
 				"ATT Protocol Operations On GATT Server";
 static bool verbose = false;
+
+static uint128_t UUID_TEST = {
+.data = {   0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA,
+0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA }
+};
 
 struct server {
 	int fd;
