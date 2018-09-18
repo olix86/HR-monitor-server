@@ -537,6 +537,19 @@ static void populate_hr_service(struct server *server)
 						NULL, hr_control_point_write_cb,
 						server);
 
+<<<<<<< HEAD
+=======
+	
+	/* Fall state Characteristic */
+	bt_uuid16_create(&uuid, UUID_CUSTOM);
+	fsm_state = gatt_db_service_add_characteristic(service, &uuid,
+						BT_ATT_PERM_NONE,
+						BT_GATT_CHRC_PROP_NOTIFY,
+						NULL, NULL, NULL);
+	server->fall_state_handle = gatt_db_attribute_get_handle(fsm_state);
+
+	
+>>>>>>> 74e7ab1... Revert "added btgatt characteristic"
 	if (server->hr_visible)
 		gatt_db_service_set_active(service, true);
 }
