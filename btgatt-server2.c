@@ -298,7 +298,19 @@ static bool hr_msrmt_cb(void *user_data)
 	uint32_t cur_ee;
 
 	pdu[0] = 0x06;
-	pdu[1] = 90 + (rand() % 40);
+	FILE *f = fopen("/home/olivier/HR-monitor-server/HB.txt", "r");
+	float HB = 0;
+	uint8_t state = 0;
+	if (f == NULL)
+	{
+		printf("Error opening file!\n");
+		exit(1);
+	}
+		fscanf(f,"%f", &HB);
+		fscanf(f,"%d", &state);
+		fclose(f);
+
+	pdu[1] = (int)HB;//90 + (rand() % 40);
 
 	if (expended_present) {
 		pdu[0] |= 0x08;
@@ -310,7 +322,11 @@ static bool hr_msrmt_cb(void *user_data)
 						server->hr_msrmt_handle,
 						pdu, len);
 
+	bt_gatt_server_send_notification(server->gatt,
+						server->fall_state_handle,
+						state, 1);
 
+	
 	cur_ee = server->hr_energy_expended;
 	server->hr_energy_expended = MIN(UINT16_MAX, cur_ee + 10);
 	server->hr_ee_count++;
