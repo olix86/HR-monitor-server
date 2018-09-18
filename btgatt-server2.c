@@ -571,7 +571,7 @@ static void populate_test_service(struct server *server)
 	bt_uuid_t uuid;
 	struct gatt_db_attribute *service, *fsm_state;
 
-	/* Add the TEST service */
+	/* Add the test service */
 	bt_uuid128_create(&uuid, UUID_TEST);
 	service = gatt_db_add_service(server->db, &uuid, true, 4);
 	
