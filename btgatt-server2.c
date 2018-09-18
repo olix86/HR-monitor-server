@@ -587,8 +587,8 @@ static void populate_test_service(struct server *server)
 	/* Fall state Characteristic */
 	bt_uuid128_create(&uuid, UUID_TEST_CARA);
 	fall_state = gatt_db_service_add_characteristic(service, &uuid,
-						BT_ATT_PERM_READ,
-						BT_GATT_CHRC_PROP_NOTIFY,
+						BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
+						BT_GATT_CHRC_PROP_READ | BT_GATT_CHRC_PROP_INDICATE,
 						fall_state_ccc_read_cb, fall_state_ccc_write_cb, server);
 	/*fall_state = gatt_db_service_add_characteristic(service, &uuid,
 						BT_ATT_PERM_NONE,
