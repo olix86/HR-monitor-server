@@ -304,7 +304,7 @@ static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
 	value[0] = server->fall_enabled ? 0x01 : 0x00;
 	value[1] = 0x05;
 
-	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
+	gatt_db_attribute_read_result(attrib, id, 0, value, 1);
 }
 
 static void fall_state_ccc_write_cb(struct gatt_db_attribute *attrib,
@@ -587,7 +587,7 @@ static void populate_test_service(struct server *server)
 	/* Fall state Characteristic */
 	bt_uuid128_create(&uuid, UUID_TEST_CARA);
 	fall_state = gatt_db_service_add_characteristic(service, &uuid,
-						BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
+						BT_ATT_PERM_READ,
 						BT_GATT_CHRC_PROP_READ | BT_GATT_CHRC_PROP_INDICATE,
 						fall_state_ccc_read_cb, fall_state_ccc_write_cb, server);
 	/*fall_state = gatt_db_service_add_characteristic(service, &uuid,
