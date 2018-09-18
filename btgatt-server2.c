@@ -324,7 +324,7 @@ static bool hr_msrmt_cb(void *user_data)
 
 	bt_gatt_server_send_notification(server->gatt,
 						server->fall_state_handle,
-						state, 1);
+						&state, 1);
 
 	
 	cur_ee = server->hr_energy_expended;
