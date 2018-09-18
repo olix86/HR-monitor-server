@@ -287,7 +287,7 @@ done:
 	gatt_db_attribute_write_result(attrib, id, ecode);
 }
 
-static void test_ccc_read_cb(struct gatt_db_attribute *attrib,
+static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
 					unsigned int id, uint16_t offset,
 					uint8_t opcode, struct bt_att *att,
 					void *user_data)
@@ -302,7 +302,7 @@ static void test_ccc_read_cb(struct gatt_db_attribute *attrib,
 	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
 }
 
-static void test_ccc_write_cb(struct gatt_db_attribute *attrib,
+static void fall_state_ccc_write_cb(struct gatt_db_attribute *attrib,
 					unsigned int id, uint16_t offset,
 					const uint8_t *value, size_t len,
 					uint8_t opcode, struct bt_att *att,
@@ -573,7 +573,7 @@ static void populate_gatt_service(struct server *server)
 static void populate_test_service(struct server *server)
 {
 	bt_uuid_t uuid;
-	struct gatt_db_attribute *service, *fsm_state;
+	struct gatt_db_attribute *service, *fall_state;
 
 	/* Add the test service */
 	bt_uuid128_create(&uuid, UUID_TEST);
@@ -581,18 +581,18 @@ static void populate_test_service(struct server *server)
 	
 	/* Fall state Characteristic */
 	bt_uuid16_create(&uuid, UUID_CUSTOM_VALUE_CHAR);
-	fsm_state = gatt_db_service_add_characteristic(service, &uuid,
+	fall_state = gatt_db_service_add_characteristic(service, &uuid,
 						BT_ATT_PERM_NONE,
 						BT_GATT_CHRC_PROP_NOTIFY,
 						NULL, NULL, NULL);
 	
-	server->fall_state_handle = gatt_db_attribute_get_handle(fsm_state);
+	server->fall_state_handle = gatt_db_attribute_get_handle(fall_state);
 	
 	bt_uuid16_create(&uuid, GATT_CLIENT_CHARAC_CFG_UUID);
 	gatt_db_service_add_descriptor(service, &uuid,
 					BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
-					test_ccc_read_cb,
-					test_ccc_write_cb, server);
+					fall_state_ccc_read_cb,
+					fall_state_ccc_write_cb, server);
 	
 	gatt_db_service_set_active(service, true);
 }
