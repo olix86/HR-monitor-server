@@ -487,7 +487,7 @@ static void populate_gatt_service(struct server *server)
 static void populate_hr_service(struct server *server)
 {
 	bt_uuid_t uuid;
-	struct gatt_db_attribute *service, *hr_msrmt, *body *fsm_state;
+	struct gatt_db_attribute *service, *hr_msrmt, *body, *fsm_state;
 	uint8_t body_loc = 1;  /* "Chest" */
 
 	/* Add Heart Rate Service */
