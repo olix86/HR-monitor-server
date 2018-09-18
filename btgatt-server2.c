@@ -53,6 +53,8 @@
 #define UUID_HEART_RATE_BODY		0x2a38
 #define UUID_HEART_RATE_CTRL		0x2a39
 
+#define UUID_CUSTOM_VALUE_CHAR      0x1401
+
 #define ATT_CID 4
 
 #define PRLOG(...) \
@@ -97,6 +99,9 @@ struct server {
 
 	uint16_t hr_handle;
 	uint16_t hr_msrmt_handle;
+	
+	uint16_t fall_state_handle;
+	
 	uint16_t hr_energy_expended;
 	bool hr_visible;
 	bool hr_msrmt_enabled;
@@ -491,12 +496,22 @@ static void populate_gatt_service(struct server *server)
 static void populate_test_service(struct server *server)
 {
 	bt_uuid_t uuid;
-	struct gatt_db_attribute *service;
+	struct gatt_db_attribute *service, *fsm_state;
 
 	/* Add the TEST service */
 	bt_uuid128_create(&uuid, UUID_TEST);
 	service = gatt_db_add_service(server->db, &uuid, true, 4);
-
+	
+	/* Fall state Characteristic */
+	bt_uuid16_create(&uuid, UUID_CUSTOM_VALUE_CHAR);
+	fsm_state = gatt_db_service_add_characteristic(service, &uuid,
+						BT_ATT_PERM_NONE,
+						BT_GATT_CHRC_PROP_NOTIFY,
+						NULL, NULL, NULL);
+	
+	server->fall_state_handle = gatt_db_attribute_get_handle(fsm_state);
+	
+	
 	gatt_db_service_set_active(service, true);
 }
 
