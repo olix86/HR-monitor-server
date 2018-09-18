@@ -577,7 +577,7 @@ static void populate_test_service(struct server *server)
 
 	/* Add the test service */
 	bt_uuid128_create(&uuid, UUID_TEST);
-	service = gatt_db_add_service(server->db, &uuid, true, 4);
+	service = gatt_db_add_service(server->db, &uuid, true, 10);
 	
 	/* Fall state Characteristic */
 	bt_uuid16_create(&uuid, UUID_CUSTOM_VALUE_CHAR);
