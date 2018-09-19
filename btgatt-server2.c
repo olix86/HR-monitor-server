@@ -598,6 +598,7 @@ static void populate_test_service(struct server *server)
 						NULL, NULL, NULL);*/
 	server->fall_state_handle = gatt_db_attribute_get_handle(fall_state);
 	
+	
 	/*bt_uuid16_create(&uuid, GATT_CLIENT_CHARAC_CFG_UUID);
 	gatt_db_service_add_descriptor(service, &uuid,
 					BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
