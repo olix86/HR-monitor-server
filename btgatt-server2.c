@@ -394,8 +394,8 @@ static bool hr_msrmt_cb(void *user_data)
 		//	fscanf(f,"%d", );
 		fclose(f);
 
-	pdu[1] = (int)HB;//90 + (rand() % 40);
-
+//	pdu[1] = (int)HB;//90 + (rand() % 40);
+pdu[1] = 90 + (rand() % 40);
 	if (expended_present) {
 		pdu[0] |= 0x08;
 		put_le16(server->hr_energy_expended, pdu + 2);
