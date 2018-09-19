@@ -302,8 +302,10 @@ static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
 	uint8_t value[2];
 
 	value[0] = server->fall_enabled ? 0x01 : 0x00;
-	value[1] = 0x05;
+	value[1] = rand() % 40; //0x05;
 
+	
+	
 	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
 }
 
@@ -602,6 +604,7 @@ static void populate_test_service(struct server *server)
 					fall_state_ccc_read_cb,
 					fall_state_ccc_write_cb, server);
 	*/
+	srand(time(NULL));
 	gatt_db_service_set_active(service, true);
 }
 
