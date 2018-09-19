@@ -302,13 +302,19 @@ static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
 	uint8_t value[2];
 
 	value[0] = server->fall_enabled ? 0x01 : 0x00;
-	value[1] = rand() % 40; //0x05;
-
+	value[1] = 0x05; //rand() % 40; 
+	//server->hr_timeout_id = timeout_add(1000, hr_msrmt_cb, server, NULL);
 	
 	
 	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
 }
 
+
+static void fall_state_cb(void *user_data)
+{
+	
+	
+}
 static void fall_state_ccc_write_cb(struct gatt_db_attribute *attrib,
 					unsigned int id, uint16_t offset,
 					const uint8_t *value, size_t len,
@@ -590,10 +596,17 @@ static void populate_test_service(struct server *server)
 	
 	/* Fall state Characteristic */
 	bt_uuid128_create(&uuid, UUID_TEST_CARA);
-	/*fall_state = gatt_db_service_add_characteristic(service, &uuid,
+	fall_state = gatt_db_service_add_characteristic(service, &uuid,
+						BT_ATT_PERM_READ,
+						BT_GATT_CHRC_PROP_READ | BT_GATT_CHRC_PROP_INDICATE,
+						NULL, NULL, server);
+	
+	/*
+	  fall_state = gatt_db_service_add_characteristic(service, &uuid,
 						BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
 						BT_GATT_CHRC_PROP_READ | BT_GATT_CHRC_PROP_INDICATE,
-						fall_state_ccc_read_cb, fall_state_ccc_write_cb, server);*/
+						fall_state_ccc_read_cb, fall_state_ccc_write_cb, server);
+	
 	fall_state = gatt_db_service_add_characteristic(service, &uuid,
 						BT_ATT_PERM_NONE,
 						BT_GATT_CHRC_PROP_NOTIFY,
@@ -601,13 +614,13 @@ static void populate_test_service(struct server *server)
 	server->fall_state_handle = gatt_db_attribute_get_handle(fall_state);
 	
 	
-	bt_uuid16_create(&uuid, GATT_CLIENT_CHARAC_CFG_UUID);
+	/*bt_uuid16_create(&uuid, GATT_CLIENT_CHARAC_CFG_UUID);
 	gatt_db_service_add_descriptor(service, &uuid,
 					BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
 					fall_state_ccc_read_cb,
 					fall_state_ccc_write_cb, server);
-	/**/
-	srand(time(NULL));
+	*/
+	//srand(time(NULL));
 	gatt_db_service_set_active(service, true);
 }
 
