@@ -596,12 +596,12 @@ static void populate_test_service(struct server *server)
 	
 	/* Fall state Characteristic */
 	bt_uuid128_create(&uuid, UUID_TEST_CARA);
-	fall_state = gatt_db_service_add_characteristic(service, &uuid,
+	/*fall_state = gatt_db_service_add_characteristic(service, &uuid,
 						BT_ATT_PERM_READ,
 						BT_GATT_CHRC_PROP_READ | BT_GATT_CHRC_PROP_INDICATE,
 						NULL, NULL, server);
 	
-	/*
+	*/
 	  fall_state = gatt_db_service_add_characteristic(service, &uuid,
 						BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
 						BT_GATT_CHRC_PROP_READ | BT_GATT_CHRC_PROP_INDICATE,
