@@ -301,12 +301,12 @@ static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
 	struct server *server = user_data;
 	uint8_t value[2];
 
-	value[0] = server->fall_enabled ? 0x01 : 0x00;
-	value[1] = 0x05; //rand() % 40; 
+	//value[0] = server->fall_enabled ? 0x01 : 0x00;
+	//value[1] = 0x05; //rand() % 40; 
 	//server->hr_timeout_id = timeout_add(1000, hr_msrmt_cb, server, NULL);
 	
 	
-	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
+	//gatt_db_attribute_read_result(attrib, id, 0, value, 2);
 }
 
 
