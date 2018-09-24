@@ -311,7 +311,7 @@ static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
 }
 
 
-static void fall_state_cb(void *user_data)
+static bool fall_state_cb(void *user_data)
 {
 	struct server *server = user_data;
 	FILE *f = fopen("/home/olivier/HR-monitor-server/Fall.txt", "r");
@@ -328,6 +328,7 @@ static void fall_state_cb(void *user_data)
 	bt_gatt_server_send_notification(server->gatt,
 						server->fall_state_handle,
 						&state, 1);
+	return true;
 	
 }
 static void fall_state_ccc_write_cb(struct gatt_db_attribute *attrib,
