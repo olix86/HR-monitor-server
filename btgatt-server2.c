@@ -115,6 +115,7 @@ struct server {
 	bool hr_msrmt_enabled;
 	int hr_ee_count;
 	unsigned int hr_timeout_id;
+	unsigned int fall_timeout_id;
 };
 
 static void print_prompt(void)
@@ -301,18 +302,31 @@ static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
 	struct server *server = user_data;
 	uint8_t value[2];
 
-	//value[0] = server->fall_enabled ? 0x01 : 0x00;
-	//value[1] = 0x05; //rand() % 40; 
+	value[0] = server->fall_enabled ? 0x01 : 0x00;
+	value[1] = 0x05; //rand() % 40; 
 	//server->hr_timeout_id = timeout_add(1000, hr_msrmt_cb, server, NULL);
 	
 	
-	//gatt_db_attribute_read_result(attrib, id, 0, value, 2);
+	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
 }
 
 
 static void fall_state_cb(void *user_data)
 {
-	
+	FILE *f = fopen("/home/olivier/HR-monitor-server/Fall.txt", "r");
+	uint8_t state = 0;
+	if (f == NULL)
+	{
+		printf("Error opening file!\n");
+		exit(1);
+	}
+		fscanf(f,"%d",&state);
+		//	fscanf(f,"%d", );
+		fclose(f);
+
+	bt_gatt_server_send_notification(server->gatt,
+						server->fall_state_handle,
+						&state, 1);
 	
 }
 static void fall_state_ccc_write_cb(struct gatt_db_attribute *attrib,
@@ -352,6 +366,13 @@ static void fall_state_ccc_write_cb(struct gatt_db_attribute *attrib,
 	PRLOG("Fall: Measurement Enabled: %s\n",
 				server->fall_enabled ? "true" : "false");
 
+	
+		if (!server->fall_enabled) {
+		timeout_remove(server->fall_timeout_id);
+		return;
+	}
+
+	server->fall_timeout_id = timeout_add(1000, fall_state_cb, server, NULL);
 	//update_hr_msrmt_simulation(server);
 
 done:
@@ -384,13 +405,13 @@ static bool hr_msrmt_cb(void *user_data)
 	pdu[0] = 0x06;
 	FILE *f = fopen("/home/olivier/HR-monitor-server/HB.txt", "r");
 	float HB = 0;
-	uint8_t state = 0;
+	//uint8_t state = 0;
 	if (f == NULL)
 	{
 		printf("Error opening file!\n");
 		exit(1);
 	}
-		fscanf(f,"%f %d", &HB, &state);
+		fscanf(f,"%f", &HB);
 		//	fscanf(f,"%d", );
 		fclose(f);
 
@@ -405,11 +426,6 @@ pdu[1] = 90 + (rand() % 40);
 	bt_gatt_server_send_notification(server->gatt,
 						server->hr_msrmt_handle,
 						pdu, len);
-
-	bt_gatt_server_send_notification(server->gatt,
-						server->fall_state_handle,
-						&state, 1);
-
 	
 	cur_ee = server->hr_energy_expended;
 	server->hr_energy_expended = MIN(UINT16_MAX, cur_ee + 10);
