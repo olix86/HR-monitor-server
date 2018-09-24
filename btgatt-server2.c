@@ -322,6 +322,7 @@ static bool fall_state_cb(void *user_data)
 		exit(1);
 	}
 		fscanf(f,"%d",&state);
+		state=rand()%5;
 		//	fscanf(f,"%d", );
 		fclose(f);
 
