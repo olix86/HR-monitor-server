@@ -20,6 +20,7 @@
 #include <config.h>
 #endif
 
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdint.h>
@@ -43,6 +44,8 @@
 #include "src/shared/gatt-db.h"
 #include "src/shared/gatt-server.h"
 
+
+
 #define UUID_GAP			0x1800
 #define UUID_GATT			0x1801
 #define UUID_HEART_RATE			0x180d
@@ -51,6 +54,7 @@
 #define UUID_HEART_RATE_CTRL		0x2a39
 
 #define UUID_CUSTOM_VALUE_CHAR      0x1401
+
 #define ATT_CID 4
 
 #define PRLOG(...) \
@@ -76,6 +80,16 @@ static const char test_device_name[] = "Very Long Test Device Name For Testing "
 				"ATT Protocol Operations On GATT Server";
 static bool verbose = false;
 
+static uint128_t UUID_TEST = {
+.data = {   0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA,
+0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA }
+};
+
+static uint128_t UUID_TEST_CARA = {
+.data = {   0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB,
+0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB }
+};
+
 struct server {
 	int fd;
 	struct bt_att *att;
@@ -90,12 +104,18 @@ struct server {
 
 	uint16_t hr_handle;
 	uint16_t hr_msrmt_handle;
+	
 	uint16_t fall_state_handle;
+	
 	uint16_t hr_energy_expended;
 	bool hr_visible;
+	
+	bool fall_enabled;
+	
 	bool hr_msrmt_enabled;
 	int hr_ee_count;
 	unsigned int hr_timeout_id;
+	unsigned int fall_timeout_id;
 };
 
 static void print_prompt(void)
@@ -273,11 +293,101 @@ done:
 	gatt_db_attribute_write_result(attrib, id, ecode);
 }
 
+static void fall_state_ccc_read_cb(struct gatt_db_attribute *attrib,
+					unsigned int id, uint16_t offset,
+					uint8_t opcode, struct bt_att *att,
+					void *user_data)
+{
+	printf("test r\n");
+	struct server *server = user_data;
+	uint8_t value[2];
+
+	value[0] = server->fall_enabled ? 0x01 : 0x00;
+	value[1] = 0x05; //rand() % 40; 
+	//server->hr_timeout_id = timeout_add(1000, hr_msrmt_cb, server, NULL);
+	
+	
+	gatt_db_attribute_read_result(attrib, id, 0, value, 2);
+}
+
+
+static bool fall_state_cb(void *user_data)
+{
+	struct server *server = user_data;
+	FILE *f = fopen("/home/olivier/HR-monitor-server/Fall.txt", "r");
+	uint8_t state = 0;
+	if (f == NULL)
+	{
+		printf("Error opening file!\n");
+		exit(1);
+	}
+		fscanf(f,"%d",&state);
+		state=rand()%5;
+		//	fscanf(f,"%d", );
+		fclose(f);
+
+	bt_gatt_server_send_notification(server->gatt,
+						server->fall_state_handle,
+						&state, 1);
+	return true;
+	
+}
+static void fall_state_ccc_write_cb(struct gatt_db_attribute *attrib,
+					unsigned int id, uint16_t offset,
+					const uint8_t *value, size_t len,
+					uint8_t opcode, struct bt_att *att,
+					void *user_data)
+{
+	printf("test w\n");
+	struct server *server = user_data;
+	uint8_t ecode = 0;
+
+	if (!value || len != 2) {
+		ecode = BT_ATT_ERROR_INVALID_ATTRIBUTE_VALUE_LEN;
+		
+		goto done;
+	}
+
+	if (offset) {
+		ecode = BT_ATT_ERROR_INVALID_OFFSET;
+		
+		goto done;
+	}
+
+	if (value[0] == 0x00)
+		server->fall_enabled = false;
+	else if (value[0] == 0x01) {
+		if (server->fall_enabled) {
+			PRLOG("Fall Measurement Already Enabled\n");
+			goto done;
+		}
+
+		server->fall_enabled = true;
+	} else
+		ecode = 0x80;
+
+	PRLOG("Fall: Measurement Enabled: %s\n",
+				server->fall_enabled ? "true" : "false");
+
+	
+		if (!server->fall_enabled) {
+		timeout_remove(server->fall_timeout_id);
+		return;
+	}
+
+	server->fall_timeout_id = timeout_add(1000, fall_state_cb, server, NULL);
+	//update_hr_msrmt_simulation(server);
+
+done:
+	gatt_db_attribute_write_result(attrib, id, ecode);
+}
+
 static void hr_msrmt_ccc_read_cb(struct gatt_db_attribute *attrib,
 					unsigned int id, uint16_t offset,
 					uint8_t opcode, struct bt_att *att,
 					void *user_data)
 {
+	printf("test r hb\n");
 	struct server *server = user_data;
 	uint8_t value[2];
 
@@ -298,18 +408,18 @@ static bool hr_msrmt_cb(void *user_data)
 	pdu[0] = 0x06;
 	FILE *f = fopen("/home/olivier/HR-monitor-server/HB.txt", "r");
 	float HB = 0;
-	uint8_t state = 0;
+	//uint8_t state = 0;
 	if (f == NULL)
 	{
 		printf("Error opening file!\n");
 		exit(1);
 	}
 		fscanf(f,"%f", &HB);
-		fscanf(f,"%d", &state);
+		//	fscanf(f,"%d", );
 		fclose(f);
 
-	pdu[1] = (int)HB;//90 + (rand() % 40);
-
+//	pdu[1] = (int)HB;//90 + (rand() % 40);
+pdu[1] = 90 + (rand() % 40);
 	if (expended_present) {
 		pdu[0] |= 0x08;
 		put_le16(server->hr_energy_expended, pdu + 2);
@@ -319,11 +429,6 @@ static bool hr_msrmt_cb(void *user_data)
 	bt_gatt_server_send_notification(server->gatt,
 						server->hr_msrmt_handle,
 						pdu, len);
-
-	bt_gatt_server_send_notification(server->gatt,
-						server->fall_state_handle,
-						state, 1);
-
 	
 	cur_ee = server->hr_energy_expended;
 	server->hr_energy_expended = MIN(UINT16_MAX, cur_ee + 10);
@@ -348,6 +453,7 @@ static void hr_msrmt_ccc_write_cb(struct gatt_db_attribute *attrib,
 					uint8_t opcode, struct bt_att *att,
 					void *user_data)
 {
+	printf("test w hb\n");
 	struct server *server = user_data;
 	uint8_t ecode = 0;
 
@@ -498,10 +604,50 @@ static void populate_gatt_service(struct server *server)
 	gatt_db_service_set_active(service, true);
 }
 
+static void populate_test_service(struct server *server)
+{
+	bt_uuid_t uuid;
+	struct gatt_db_attribute *service, *fall_state;
+
+	/* Add the test service */
+	bt_uuid128_create(&uuid, UUID_TEST);
+	service = gatt_db_add_service(server->db, &uuid, true, 10);
+	
+	/* Fall state Characteristic */
+	bt_uuid128_create(&uuid, UUID_TEST_CARA);
+	/*fall_state = gatt_db_service_add_characteristic(service, &uuid,
+						BT_ATT_PERM_READ,
+						BT_GATT_CHRC_PROP_READ | BT_GATT_CHRC_PROP_INDICATE,
+						NULL, NULL, server);
+	
+	
+	  fall_state = gatt_db_service_add_characteristic(service, &uuid,
+						BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
+						BT_GATT_CHRC_PROP_READ | BT_GATT_CHRC_PROP_INDICATE,
+						fall_state_ccc_read_cb, fall_state_ccc_write_cb, server);
+	*/
+	fall_state = gatt_db_service_add_characteristic(service, &uuid,
+						BT_ATT_PERM_NONE,
+						BT_GATT_CHRC_PROP_NOTIFY,
+						NULL, NULL, NULL);
+	/**/server->fall_state_handle = gatt_db_attribute_get_handle(fall_state);
+	
+	
+	bt_uuid16_create(&uuid, GATT_CLIENT_CHARAC_CFG_UUID);
+	gatt_db_service_add_descriptor(service, &uuid,
+					BT_ATT_PERM_READ | BT_ATT_PERM_WRITE,
+					fall_state_ccc_read_cb,
+					fall_state_ccc_write_cb, server);
+	/**/
+	//srand(time(NULL));
+	gatt_db_service_set_active(service, true);
+}
+
+
 static void populate_hr_service(struct server *server)
 {
 	bt_uuid_t uuid;
-	struct gatt_db_attribute *service, *hr_msrmt, *body *fsm_state;
+	struct gatt_db_attribute *service, *hr_msrmt, *body;
 	uint8_t body_loc = 1;  /* "Chest" */
 
 	/* Add Heart Rate Service */
@@ -545,16 +691,6 @@ static void populate_hr_service(struct server *server)
 						NULL, hr_control_point_write_cb,
 						server);
 
-	
-	/* Fall state Characteristic */
-	bt_uuid16_create(&uuid, UUID_CUSTOM_VALUE_CHAR);
-	fsm_state = gatt_db_service_add_characteristic(service, &uuid,
-						BT_ATT_PERM_NONE,
-						BT_GATT_CHRC_PROP_NOTIFY,
-						NULL, NULL, NULL);
-	server->fall_state_handle = gatt_db_attribute_get_handle(fsm_state);
-
-	
 	if (server->hr_visible)
 		gatt_db_service_set_active(service, true);
 }
@@ -564,6 +700,7 @@ static void populate_db(struct server *server)
 	populate_gap_service(server);
 	populate_gatt_service(server);
 	populate_hr_service(server);
+	populate_test_service(server);
 }
 
 static struct server *server_create(int fd, uint16_t mtu, bool hr_visible)

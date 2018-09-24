@@ -39,7 +39,7 @@ States fsm()
 	static float T = 0.01;
 	static float maxFallTime = 1.0;
 	static float maxImpactTime = 1.0;
-	static float maxRestTime = 1.0;
+	static float maxRestTime = 2.0;
 	static States state = wait;
 	
 	static float waitImpact = 0;
@@ -97,7 +97,7 @@ States fsm()
 	}
 	else if(state == impact)
 	{
-		if(norm < (1.5*g))
+		if(norm < (2.0*g))
 		{
 			state = rest;
 			waitRest = 0;
@@ -154,7 +154,8 @@ int main(){
 		//printf("update \n");
 		
 		FILE *f = fopen("HB.txt", "w");
-		if (f == NULL)
+		FILE *f2 = fopen("Fall.txt", "w");
+		if (f == NULL || f2 == NULL)
 		{
 			printf("Error opening file!\n");
 			exit(1);
@@ -183,11 +184,13 @@ int main(){
 		
 		//readAccelero();
 		state = fsm();
-		fprintf(f,"%d\n", state);
+		fprintf(f2,"%d\n", state);
 		
 		fclose(f);
+		fclose(f2);
 		
 		//takes microseconds as arg
+		//fs = 100Hz
 		usleep(10*1000);
 		//i--;
 	}
