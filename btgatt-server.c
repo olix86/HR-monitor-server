@@ -322,8 +322,10 @@ static bool fall_state_cb(void *user_data)
 		exit(1);
 	}
 		fscanf(f,"%d",&state);
-		state=rand()%5;
-		//	fscanf(f,"%d", );
+		
+		// uncomment next line to use random states value
+		//state=rand()%5;
+		
 		fclose(f);
 
 	bt_gatt_server_send_notification(server->gatt,
@@ -419,7 +421,10 @@ static bool hr_msrmt_cb(void *user_data)
 		fclose(f);
 
 	pdu[1] = (int)HB;//90 + (rand() % 40);
-//pdu[1] = 90 + (rand() % 40);
+	
+	// uncomment next line to use random pulse values
+	//pdu[1] = 90 + (rand() % 40);
+	
 	if (expended_present) {
 		pdu[0] |= 0x08;
 		put_le16(server->hr_energy_expended, pdu + 2);

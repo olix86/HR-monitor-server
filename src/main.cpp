@@ -79,6 +79,7 @@ States fsm()
 	}
 	else if(state == freefall)
 	{	
+		
 		if(norm >(3.0*g))
 		{
 			state = impact;
@@ -119,6 +120,7 @@ States fsm()
 		if(restCounter > maxRestTime/T)
 		{
 			state = wait;
+			printf("fall detected! \n")
 			restCounter = 0;
 		}
 		else
