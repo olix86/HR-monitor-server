@@ -61,7 +61,7 @@ States fsm()
 	a[2] = (double)az/ scaling_factor;
 	
 	//printf("a/g: %6hd %6hd %6hd   %6hd %6hd %6hd\n",(double)ax,(double)ay,(double)az,gx,gy,gz);
-	printf("a/g: %f %f %f   %6hd %6hd %6hd\n",(double)ax/scaling_factor,(double)ay/scaling_factor,(double)az/scaling_factor,gx,gy,gz);
+	//printf("a/g: %f %f %f   %6hd %6hd %6hd\n",(double)ax/scaling_factor,(double)ay/scaling_factor,(double)az/scaling_factor,gx,gy,gz);
 	printf("%d \n", state);
 	
 	
@@ -129,9 +129,6 @@ States fsm()
 	}
 		return state;
 }
-
-
-
 
 int main(){
 	
