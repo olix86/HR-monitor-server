@@ -120,7 +120,7 @@ States fsm()
 		if(restCounter > maxRestTime/T)
 		{
 			state = wait;
-			printf("fall detected! \n")
+			printf("fall detected! \n");
 			restCounter = 0;
 		}
 		else
