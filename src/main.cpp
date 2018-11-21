@@ -173,7 +173,7 @@ int main(){
 		}
 		else
 		{
-			//printf("no pulse detected \n");  
+			printf("no pulse detected \n");  
 			fprintf(f,"0\n");
 			
 		}
