@@ -151,13 +151,9 @@ int main(){
 		pulseoxymeter_t result = pulseOxymeter->update();
 		//printf("update \n");
 		
-		FILE *f = fopen("HB.txt", "w");
-		FILE *f2 = fopen("Fall.txt", "w");
-		if (f == NULL || f2 == NULL)
-		{
-			printf("Error opening file!\n");
-			exit(1);
-		}
+		
+		
+		
 		
 		if( result.pulseDetected == true )
 		{
@@ -171,24 +167,49 @@ int main(){
 			//printf( "% \n" );
 			
 			lastPulseDetected = time (NULL);
+			
+			FILE *f = fopen("HB.txt", "w");
+			if (f == NULL)
+			{
+				printf("Error opening file!\n");
+				exit(1);
+			}
 			fprintf(f,"%f\n", result.heartBPM);
+			fclose(f);
 		}
 		else
 		{
 			if(time(NULL) - lastPulseDetected > 10)
 			{	
 				printf("no pulse detected \n");  
+				
+				FILE *f = fopen("HB.txt", "w");
+				if (f == NULL)
+				{
+					printf("Error opening file!\n");
+					exit(1);
+				}
 				fprintf(f,"0\n");
+				fclose(f);
 			}
 		}
 		
 		
 		//readAccelero();
 		state = fsm();
-		fprintf(f2,"%d\n", state);
 		
-		fclose(f);
+		FILE *f2 = fopen("Fall.txt", "w");
+		if (f2 == NULL)
+		{
+			printf("Error opening file!\n");
+			exit(1);
+		}
+		fprintf(f2,"%d\n", state);
 		fclose(f2);
+		
+		
+		
+		
 		
 		//takes microseconds as arg
 		//fs = 100Hz
