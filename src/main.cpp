@@ -141,6 +141,7 @@ int main(){
 	
 	printf("begin \n");
 	
+	time_t lastPulseDetected = 0;
 	setupAccelero();
 	
 	//You have to call update with frequency at least 37Hz. But the closer you call it to 100Hz the better, the filter will work.
@@ -169,13 +170,16 @@ int main(){
 			 *			printf("%f", result.SaO2 ); */
 			//printf( "% \n" );
 			
+			lastPulseDetected = time (NULL);
 			fprintf(f,"%f\n", result.heartBPM);
 		}
 		else
 		{
-			printf("no pulse detected \n");  
-			fprintf(f,"0\n");
-			
+			if(time(NULL) - lastPulseDetected > 10)
+			{	
+				printf("no pulse detected \n");  
+				fprintf(f,"0\n");
+			}
 		}
 		
 		
