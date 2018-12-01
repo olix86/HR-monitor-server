@@ -37,9 +37,9 @@ States fsm()
 {
 	static float g=1;//9.81;
 	static float T = 0.01;
-	static float maxFallTime = 1.0;
+	static float maxFallTime = 2.0;
 	static float maxImpactTime = 1.0;
-	static float maxRestTime = 2.0;
+	static float maxRestTime = 1.0;
 	static States state = wait;
 	
 	static float waitImpact = 0;
@@ -181,7 +181,7 @@ int main(){
 		}
 		else
 		{
-			if(time(NULL) - lastPulseDetected > 10)
+			if(time(NULL) - lastPulseDetected > 5)
 			{	
 				printf("no pulse detected \n");  
 				
