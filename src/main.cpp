@@ -80,7 +80,7 @@ States fsm()
 	else if(state == freefall)
 	{	
 		
-		if(norm >(3.0*g))
+		if(norm >(2.0*g))
 		{
 			state = impact;
 			waitImpact = 0;
